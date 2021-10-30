@@ -13,13 +13,13 @@ productos como muebles e iluminación.
 
 Crear una breve descripción de los integrantes del grupo.
 
-Alejandro Alturria: Es un empleado administrativo muy ordenado y un poco detraído que en sus tiempos libres juega video juegos.
+-Alejandro Alturria: Es un empleado administrativo muy ordenado y un poco detraído que en sus tiempos libres juega video juegos.
 
-Dario Carena: Empleado administrativo contable en una empresa de seguridad privada. Me gusta mucho el futbol y la tecnologia en general. Amante de la cultura japonesa.
+-Dario Carena: Empleado administrativo contable en una empresa de seguridad privada. Me gusta mucho el futbol y la tecnologia en general. Amante de la cultura japonesa.
 
-Leandro Ortiz: 
+-Leandro Ortiz: 
 
-Marcos Btesh:
+-Marcos Btesh:
 
 Sitios similares (al menos 5)
 
