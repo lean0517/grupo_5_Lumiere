@@ -21,7 +21,7 @@ Leandro Ortiz:
 
 Marcos Btesh:
 
-Sitios similares (al memnos 5)
+Sitios similares (al menos 5)
 
 - https://www.musimundo.com – Elegido por la estética del sitio.
 - https://www.ribeiro.com.ar – Elegido por el tipo de productos que venden.
