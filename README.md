@@ -19,7 +19,7 @@ Crear una breve descripción de los integrantes del grupo.
 
 -Leandro Ortiz: Consultor en informatica, un emprendedor buscando nuevos horizontes. Fanatico de la tecnologia y la musica.
 
--Marcos Btesh:
+-Marcos Btesh: Empleado en una PyME textil. Médico.
 
 Sitios similares (al menos 5)
 
