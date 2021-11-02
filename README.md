@@ -17,7 +17,7 @@ Crear una breve descripción de los integrantes del grupo.
 
 -Dario Carena: Empleado administrativo contable en una empresa de seguridad privada. Me gusta mucho el futbol y la tecnologia en general. Amante de la cultura japonesa.
 
--Leandro Ortiz: 
+-Leandro Ortiz: Consultor en informatica, un emprendedor buscando nuevos horizontes. Fanatico de la tecnologia y la musica.
 
 -Marcos Btesh:
 
