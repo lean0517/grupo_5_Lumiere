@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.container {
+    display: flex;
+    justify-content: center;
+    background-color: #2794EF;
+    color: #FFF;
+    border-radius: 5px;
+    width: 350px;
+    margin: auto;
+}
+
+/* ===== FORMULARIO ===== */
+
+input {
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px;
+    background-color: #FFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+a {
+    color: #FFF;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+
