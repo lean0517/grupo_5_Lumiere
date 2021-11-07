@@ -1,3 +1,5 @@
+=== SPTRINT 1 ===
+
 ¿Qué productos o servicios brindara nuestro sitio?
 
 -Nuestro sitio brindara un servicio de venta online de grandes y pequeños electrodomesticos para el hogar: desde lavarropas, cocinas y microondas, hasta afeitadoras, teléfonos, etc. El mismo se encontrara dividido por diversas secciones: beauty, limpieza, tecnología, entre otros; tambien, contaremos con la opcion de adquirir otros
@@ -28,3 +30,8 @@ Sitios similares (al menos 5)
 - https://www.fravega.com – Elegido por la estética del sitio.
 - https://www.megatone.net – Elegido por el tipo de productos que venden.
 - https://www.coppel.com.ar – Elegido por el tipo de productos que venden y  por su forma de visualizar las ofertas.
+
+
+=== SPTRINT 2 ===
+
+Link de Trello: https://trello.com/b/beeym8Nq/lumiere-e-commerse
