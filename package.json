@@ -1,0 +1,24 @@
+{
+  "name": "lumiere",
+  "version": "1.0.0",
+  "description": "=== SPTRINT 1 ===",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lean0517/grupo_5_Lumiere.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lean0517/grupo_5_Lumiere/issues"
+  },
+  "homepage": "https://github.com/lean0517/grupo_5_Lumiere#readme"
+}

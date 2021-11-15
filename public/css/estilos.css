@@ -1,0 +1,10 @@
+.logo {
+    width: 150px;
+    height: 150px;
+}
+.cartel-ofertas {
+    background-color: rgba(247, 121, 18, 0.966);
+    width: 100%;
+    font-size: 48px;
+    text-align: center;
+}
