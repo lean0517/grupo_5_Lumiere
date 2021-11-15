@@ -1,0 +1,50 @@
+
+body{
+    font-family:'Work Sans', sans-serif ;
+}
+.descripcion ul li{
+    width: 100%;
+    
+}
+.producto,
+h3{
+    color: rgb(5, 27, 121) ;
+    font-size: 20px;
+    font-weight: bold;
+}    
+.descripcion{
+    background-color: rgb(225, 234, 235);
+}
+.precio{
+    color:rgb(5, 27, 121) ;
+    font-size: 28px;
+    margin: 20px;
+}
+.medios-pago,
+.envio{
+    color: darkcyan;
+    margin-bottom: 5px;
+    padding: 5px 5px 0px 15px;
+}
+.carrito{
+    background-color: rgb(23, 88, 126);
+    padding: 10px 30px;
+    margin: 10px 0 0 30px;
+    border-radius: 8px;
+    color: white;
+}
+@media (max-width:768px){
+    .producto{
+        display: none;
+    }
+    
+}
+@media(min-width:768px){
+    .datos{
+        display: flex;
+    }
+    h3{
+        display: none;
+    }
+    
+}
