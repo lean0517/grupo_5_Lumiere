@@ -31,7 +31,7 @@ rel="stylesheet" />
     </header>
     <img src="/img/banner_electrodomesticos.png" width="100%">
      <main>
-         <section class="categorias">
+        <section class="categorias">
              <nav>
                 <div>Tv,video y audio</div>
                 <div>Tecnologia y celulares</div>
@@ -39,13 +39,25 @@ rel="stylesheet" />
                 <div>Electrohogar</div>
                 <div>Cuidado Personal</div>
              </nav>
-             
-         </section>
+        </section>
+        <form action="/resultado.html" method="post">
+            <div class="select-cat">
+                <select name="mes" id="mes" class="cat">
+                    <option value="1">CATEGORIAS</option>
+                    <option value="2">TV, Audio y Video</option>
+                    <option value="3">Tecnologia y celulares</option>
+                    <option value="4">Climatización</option>
+                    <option value="5">Electrohogar</option>
+                    <option value="6">Cuidado Personal</option>
+                    
+                </select>
+            </div>
+        </form>
         <div class="cartel-ofertas"><h2>OFERTAS</h2></div>
         <section class = "ofertas">
          <a href='/productdetail'>
             <article> 
-                <img src='\img\SecadorOferta.jpg' alt = 'Imagen-de-secador' width="40%">
+                <div><img src='\img\SecadorOferta.jpg' alt = 'Imagen-de-secador' width="100%"></div>
                 <div class="main-article">
                 <div class="datos-producto">
                 <i class='fas fa-truck'></i>
@@ -57,18 +69,20 @@ rel="stylesheet" />
             </article>
          </a>
         <article>
-            <img src='\img\Difusor.jppg.jpg' alt = 'Imagen-de-difusor'>
+            <div><img src='\img\Difusor.jppg.jpg' alt = 'Imagen-de-difusor' width="100%"></div>
             <div class="main-article">
             <div class="datos-producto">
             <i class='fas fa-truck'></i>
-            <p class = "precio">$3.500,00</p>
-            <p class = "descuentos">45% OFF</p>
+            <div class="pd">
+                <p class = "precio">$3.500,00</p>
+                <p class = "descuentos">45% OFF</p>
+            </div>
             </div>
             <p class = "descripcion">Difusor Ultrasonico 300ml GADNIC</p>
         </div>
        </article>
        <article>
-            <img src='\img\AspiradoraOferta.jpg' alt = 'Imagen-de-aspiradora-electrolux'>
+            <div><img src='\img\AspiradoraOferta.jpg' alt = 'Imagen-de-aspiradora-electrolux' width="100%"></div>
             <div class="main-article">
             <div class="datos-producto">
             <i class='fas fa-truck'></i>
@@ -79,7 +93,7 @@ rel="stylesheet" />
             </div>
        </article>
        <article>
-            <img src='\img\TelevisorOferta.jpg' alt = 'Imagen-de-televisor'>
+            <div><img src='\img\TelevisorOferta.jpg' alt = 'Imagen-de-televisor' width="100%"></div>
             <div class="main-article">
             <div class="datos-producto">
             <i class='fas fa-truck'></i>
