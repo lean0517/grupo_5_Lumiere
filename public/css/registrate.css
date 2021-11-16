@@ -1,7 +1,79 @@
+header{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.logo {
+    width: 150px;
+    height: 150px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.sitio a{
+    
+    color:darkcyan;
+    text-decoration: none;
+    
+}
+.sitio{
+    list-style: none;
+    padding-right: 20px;
+    display: flex;
+}
+.sitio div{
+    padding-right: 10px;
+}
 body{
     font-family:'Work Sans', sans-serif ;
 }
 section{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-top: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    
+}
+h3{
+    text-align: center;
+    background-color: rgb(225, 234, 235);
+    padding: 10px;
+    margin-bottom: 15px;
+    margin: 0;
+    
+}
+.cont-formulario{
+    border: rgb(225, 234, 235) solid 5px;
+    padding:  10px;
+    text-align: center;
+    font-size: 14px;
+}
+.barra{
+    border-radius: 10px;
+    
+}
+.chek{
+    text-align: justify;
+    
+}
+.contenedor-chek{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+::placeholder{
+    opacity: 60%;
+    font-style: italic;
+    padding: 10px;
+}
+#fecha.barra{
+    padding: 0px 10px;
+} 
+.botones{
+    border-radius: 5px;
+    background-color: rgb(225, 234, 235);
+    padding: 5px 15px;
+    color: blue;
 }
