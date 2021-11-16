@@ -1,14 +1,31 @@
-<form action= "/" method="post">
-            <label for= nombre-completo>Ingrese su nombre completo</label>
-            <input type= "text" id=nombre-completo name="nombre-completo"><br><br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registrate.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <form action= "/" method="post">
+            <div><label for= nombre-completo>Ingrese su email:</label></div>
+            <div><input type= "email" id=email name="email"></div><br><br>
+
+            <div><label for= nombre-completo>Ingrese su nombre completo:</label></div>
+            <div><input type= "text" id=nombre-completo name="nombre-completo"></div><br><br>
         
-            <label for= usuario>Ingrese usuario</label>
-            <input type= "text" id=usuario name="usuario"><br><br>
+            <div><label for= usuario>Ingrese usuario:</label></div>
+            <div><input type= "text" id=usuario name="usuario"></div><br><br>
         
-            <label>Ingrese su fecha de nacimiento</label>
+            <label>Ingrese su fecha de nacimiento:</label>
             <input type= "date" id=fecha name="Fecha-De-Nacimiento"><br><br>
         
-            <label for= domicilio>Ingrese su domicilio</label>
+            <label for= domicilio>Ingrese su domicilio:</label>
             <input type= "text" id=domicilio name="domicilio"><br><br>
             
             <label>¿Cuales son sus categorias de interes?</label><br><br>
@@ -28,5 +45,8 @@
         
             <button type="reset">Borrar Todo</button>
             <button type="submit">Enviar</button>
- </form>
+        </form>
+    </section>
+</body>
+</html>
         

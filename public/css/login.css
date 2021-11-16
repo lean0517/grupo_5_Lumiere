@@ -56,12 +56,11 @@ h3{
     color: darkcyan;
     text-decoration: none;
 }
-.email{
-    padding: 22px;
-}
+
 .barras{
     padding: 2px;
-    border-radius: 2px;
+    border-radius: 10px;
+    
 }
 section{
     margin-right: 20%;
