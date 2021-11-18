@@ -35,6 +35,7 @@ header{
 .categorias{
     background-color: rgb(225, 234, 235);
     width: 100%;
+    border-radius: 5px;
     
 }
 .categorias nav{
@@ -72,6 +73,7 @@ header{
     padding: 20px;
     background-color: rgb(225, 234, 235);
     margin: 0px;
+    border-radius: 5px;
 }
 .cat{
     width: 250px;
