@@ -47,10 +47,24 @@ header{
 }
 
 .cartel-ofertas {
-    background-color: rgba(247, 121, 18, 0.966);
-    width: 100%;
-    font-size: 48px;
+    background-color: rgba(35, 98, 182, 0.966);
+    font-size: 45px;
     text-align: center;
+    color: rgb(225, 234, 235);
+    border-radius: 15px;
+    width: 95%;
+    margin: auto;
+    
+}
+.cartel-destacados {
+    background-color: rgba(35, 98, 182, 0.966);
+    font-size: 30px;
+    text-align: center;
+    color: rgb(225, 234, 235);
+    border-radius: 15px;
+    width: 95%;
+    margin: auto;
+        
 }
 .select-cat{
     display: flex;
@@ -63,7 +77,7 @@ header{
     width: 250px;
     padding: 8px;
     font-size: 14px;
-    background-color: rgb(10, 20, 160);
+    background-color: rgba(35, 98, 182, 0.966);
     color: white;
     border-radius: 10px;
 }
@@ -71,12 +85,14 @@ header{
 .ofertas{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    margin: 5%;
     
     
 }
 .ofertas article{
-    border: solid red 1px;
+    border: solid rgba(35, 98, 182, 0.966) 4px;
+    border-radius: 15px;
     
 }
 article{
@@ -84,19 +100,63 @@ article{
     border-top: solid 1px #ebebeb;
     text-align: left;
     padding: 8px;
+    margin: 5px;
        
+}
+
+.ofertas article a{
+    text-decoration: none;
+    
+}
+.datos-producto{
+    color: rgba(35, 98, 182, 0.966);
+    
+}
+.datos-producto i{
+    display: block;
+    text-align: right;
+    margin-right: 10%;
+    
+}
+.pd{
+    display: flex;
+    align-items: center;
+    
+}
+.precio{
+    margin-right: 5%;
+    font-size: 28px;
+}
+.descripcion{
+    color: black;
+}
+.carrito{
+    background-color: rgba(35, 98, 182, 0.966);
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: white;
+    display: block;
+    text-align: center;
 }
 
 @media (max-width:768px){
     .categorias{
         display: none;
     }
-    .logo-barra{
-        border: red 1px solid;
+    
+    .oferta3,
+    .oferta4{
+        display: none;
+    }
+}
+@media (max-width:1080px){
+    .oferta4{
+        display:none;
     }
 }
 @media (min-width:768px){
     .select-cat{
         display: none;
     }
+    
 }

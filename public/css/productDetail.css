@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 header{
     display: flex;
     align-items: center;
@@ -26,8 +29,45 @@ header{
 .sitio div{
     padding-right: 10px;
 }
+.categorias{
+    background-color: rgb(225, 234, 235);
+    width: 100%;
+    
+}
+.categorias nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.categorias nav div{
+    padding: 10px;
+}
+.select-cat{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(225, 234, 235);
+    margin: 0px;
+}
+.cat{
+    width: 250px;
+    padding: 8px;
+    font-size: 14px;
+    background-color: rgba(35, 98, 182, 0.966);
+    color: white;
+    border-radius: 10px;
+}
 body{
     font-family:'Work Sans', sans-serif ;
+    
+}
+article{
+    width: 90%;
+    border: rgba(35, 98, 182, 0.966) solid 4px;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 10px;
+    padding: 2%;
 }
 .descripcion ul li{
     width: 100%;
@@ -35,15 +75,19 @@ body{
 }
 .producto,
 h3{
-    color: rgb(5, 27, 121) ;
+    color: rgba(35, 98, 182, 0.966) ;
     font-size: 20px;
     font-weight: bold;
-}    
+} 
+  
 .descripcion{
     background-color: rgb(225, 234, 235);
+    padding: 2%;
+    border-radius: 10px;
+    margin: 0%;
 }
 .precio{
-    color:rgb(5, 27, 121) ;
+    color:rgba(35, 98, 182, 0.966) ;
     font-size: 28px;
     margin: 20px;
 }
@@ -54,7 +98,7 @@ h3{
     padding: 5px 5px 0px 15px;
 }
 .carrito{
-    background-color: rgb(23, 88, 126);
+    background-color: rgba(35, 98, 182, 0.966);
     padding: 10px 30px;
     margin: 10px 0 0 30px;
     border-radius: 8px;
@@ -64,13 +108,18 @@ h3{
     .producto{
         display: none;
     }
-    
+    .categorias{
+        display: none;
+    }
 }
 @media(min-width:768px){
     .datos{
         display: flex;
     }
     h3{
+        display: none;
+    }
+    .select-cat{
         display: none;
     }
     
