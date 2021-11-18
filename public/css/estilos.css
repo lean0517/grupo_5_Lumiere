@@ -140,6 +140,32 @@ article{
     display: block;
     text-align: center;
 }
+/* FOOTER inicio */
+footer section {
+    background-color: rgba(35, 98, 182, 0.966);
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+.copyright{
+    text-align: left;
+    color:gray;
+    font-size:16px;
+}
+.textoLegales {
+    color: gray;
+    font-size: 10px;
+}
+footer section i {
+    color:white;
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*FOOTER fin */
 
 @media (max-width:768px){
     .categorias{
