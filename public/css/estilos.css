@@ -148,6 +148,7 @@ footer section {
     color: white;
     display: flex;
     text-align: center;
+    
 }
 .copyright{
     text-align: left;
@@ -163,6 +164,7 @@ footer section i {
     font-size: 2em;
     margin-bottom: 10px;
     text-align: center;
+    
 }
 
 /*FOOTER fin */
@@ -175,6 +177,9 @@ footer section i {
     .oferta3,
     .oferta4{
         display: none;
+    }
+    footer section{
+        flex-wrap: wrap;
     }
 }
 @media (max-width:1080px){
