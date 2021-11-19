@@ -20,6 +20,6 @@ app.get('/login', function (req, res){
 app.get('/productdetail', function (req, res){
     res.sendFile(path.resolve(__dirname,'./views/productDetail.html'))
 })
-app.get('/productCart', function (req, res){
+app.get('/productcart', function (req, res){
     res.sendFile(path.resolve(__dirname,'./views/productCart.html'))
 })

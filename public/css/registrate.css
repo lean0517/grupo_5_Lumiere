@@ -38,14 +38,14 @@ section{
 }
 h3{
     text-align: center;
-    background-color: rgb(225, 234, 235);
+    background-color: rgba(35, 98, 182, 0.966);
     padding: 10px;
     margin-bottom: 15px;
     margin: 0;
     
 }
 .cont-formulario{
-    border: rgb(225, 234, 235) solid 5px;
+    border: rgba(35, 98, 182, 0.966) solid 5px;
     padding:  10px;
     text-align: center;
     font-size: 14px;

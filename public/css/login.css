@@ -36,17 +36,16 @@ body{
     text-align: center;
     align-items: center;
     margin: auto;
-    border:rgb(225, 234, 235) 5px solid;
+    border:rgba(35, 98, 182, 0.966) 5px solid;
     padding: 20px;
-    
-    
+        
 }
 .enter-button{
     padding: 5px 15px;    
 }
 h3{
     text-align: center;
-    background-color: rgb(225, 234, 235);
+    background-color: rgba(35, 98, 182, 0.966);
     padding: 10px;
     margin-bottom: 0px;
     

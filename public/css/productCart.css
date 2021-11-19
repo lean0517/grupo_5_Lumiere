@@ -14,7 +14,7 @@
     height: 480px;
     margin: 30px auto;
     border-radius: 10px;
-    border: solid 2px black;
+    border: solid 4px rgba(35, 98, 182, 0.966);
     
 }
 
@@ -83,7 +83,8 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;  
+  justify-content: center; 
+   
 }
 
 .pagoCompra h3 {
@@ -213,6 +214,9 @@ footer section i {
   .oferta4{
       display: none;
   }
+  footer section{
+    flex-wrap: wrap;
+}
 }
 @media (max-width:1080px){
   .oferta4{
@@ -225,4 +229,5 @@ footer section i {
   }
   
 }
+
 
