@@ -1,6 +1,4 @@
-*{
-    box-sizing: border-box;
-}
+
 
 body{
     font-family:'Work Sans', sans-serif ;
@@ -87,6 +85,7 @@ header{
     background-color: rgba(35, 98, 182, 0.966);
     color: white;
     border-radius: 10px;
+    text-align: center;
 }
 
 .ofertas{
@@ -155,7 +154,6 @@ footer section {
     color: white;
     display: flex;
     text-align: center;
-    
 }
 
 .copyright{
@@ -174,7 +172,6 @@ footer section i {
     font-size: 2em;
     margin-bottom: 10px;
     text-align: center;
-    
 }
 
 /*FOOTER fin */
@@ -184,18 +181,17 @@ footer section i {
         display: none;
     }
     
+    .cat {
+        width: 165px;
+    }
+
     .oferta3,
     .oferta4{
         display: none;
     }
+
     footer section{
         flex-wrap: wrap;
-    }
-}
-
-@media (max-width:1080px){
-    .oferta4{
-        display:none;
     }
 }
 
@@ -205,3 +201,10 @@ footer section i {
     }
     
 }
+
+@media (max-width:1080px){
+    .oferta4{
+        display:none;
+    }
+}
+
