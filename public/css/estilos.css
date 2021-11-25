@@ -167,13 +167,16 @@ footer section {
     font-size: 10px;
 }
 
-footer section i {
+.icono {
     color:white;
     font-size: 2em;
     margin-bottom: 10px;
     text-align: center;
+    align-items: center;
 }
-
+section article h3{
+    text-align: center;
+}
 /*FOOTER fin */
 
 @media (max-width:768px){
