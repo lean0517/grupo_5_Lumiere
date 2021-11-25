@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+    <%- include ('../partials/head') %>
+    <link rel="stylesheet" href="css/login.css">
+    <title>Inicia Sesion</title>
+</head>
+<%- include ('../partials/header') %>
+<img src="/img/banner_electrodomesticos.png" width="100%">
+
+<body>
+    <section>
+        <h3>¡Iniciá sesion y comenza a comprar!</h3>
+        <div class="container">
+            <form action="/login" method="post">
+                <p>
+                    <label class="email" for="email" ></label> 
+                    <input class="barras" type="email" name="email" id="email" placeholder="Email/Usuario" required>
+                </p>
+                <p>
+                    <label class="text" for="contraseña"></label>
+                    <input class="barras" type="password" name="contraseña" id="contraseña" placeholder="Contraseña" required>
+                </p>
+                <p> 
+                     <button type="submit" class="enter-button">Entrar</button>
+                </p>
+                <p>
+                    <a class="text" href="#">¿Olvidaste tu contraseña?</a>
+                </p>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
+<%- include ('../partials/footer') %>

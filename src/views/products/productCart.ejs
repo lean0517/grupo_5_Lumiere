@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include ('../partials/head') %>
+    <link rel="stylesheet" href="/css/productCart.css">
+    <title>Document</title>
+</head>
+<body>
+  <%- include ('../partials/header') %>
+  <img src="/img/banner_electrodomesticos.png" width="100%">
+  <section class="categorias">
+    <nav>
+       <div>Tv,video y audio</div>
+       <div>Tecnologia y celulares</div>
+       <div>Climatización</div>
+       <div>Electrohogar</div>
+       <div>Cuidado Personal</div>
+    </nav>
+  </section>
+    <div class="container">
+      <h2 class="miCarrito">Mi Carrito</h2>
+        <div class="detalleCompra">
+          <div class="imgDescripcion">
+            <img src="/img/lavarropa_carrito.jpg" alt="lavarropa">
+            <h4>LAVARROPAS AUTOMATICO WHIRLPOOL - WLF80AB 8 BLANCO</h4>
+          </div>
+          <div class="importes">
+            <article>
+              <h4>LISTA:</h4>
+              <h5>$75.000</h5>
+            </article>
+            <article>
+              <h4>EFECTIVO:</h4>
+              <h5>$68.000</h5>
+            </article>  
+            <article>
+              <h4>UNIDADES:</h4>
+              <select name="unidades">
+                <option value="valor_1">1 unidad</option>
+                <option value="valor_2">2 unidades</option>
+                <option value="valor_3">3 unidades</option>
+                <option value="valor_4">4 unidades</option>
+                <option value="valor_5">5 unidades</option>
+              </select>
+            </article>
+            <article class="tachitoBasura"> 
+              <i class="far fa-trash-alt"></i>
+            </article>
+          </div>
+        </div>
+        <div class="pagoCompra">
+            <div>
+              <h3>Subtotal pagando con MercadoPago</h3>
+              <h3>$75.000</h3>
+            </div>
+            <div>
+              <h3>Subtotal pagando con Transferencia Bancaria</h3>
+              <h3>$68.000</h3>
+            </div>  
+            <input class="comprar" type="button" value="COMPRAR">
+        </div>
+    </div>
+</body>
+<%- include ('../partials/footer') %>

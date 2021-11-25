@@ -1,35 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Secadro de Pelo Teknikpro</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    rel="stylesheet" />
+    <%- include ('../partials/head') %>
     <link rel="stylesheet" href="/css/productDetail.css">
-    
+    <title>Secador de Pelo Teknikpro</title>
 </head>
-<header>
-    <a href="/">
-        <div class=logo><img class=logo src= '\img\Logo-Lumiere.jpg' alt=''></div>
-    </a>
-        <div class="topnav">
-            <input type="text" placeholder="Buscar productos, marcas"> <i class="fas fa-search"></i>
-        </div>
-    <div>
-        <nav>
-         <ul class = "sitio">
-            <div><li><a href='/login'>Ingresá <i class="fas fa-sign-in-alt"></i></a></li></div>
-            <div><li><a href='/registrate'>Registrate <i class="far fa-id-card"></i></a></li></div>
-            <div><li><a href='#'>Carrito<i class="fas fa-shopping-cart"></i></a></li></div>
-        </ul>
-        </nav>
-    </div>
-</header>
+<%- include ('../partials/header') %>
 <img src="/img/banner_electrodomesticos.png" width="100%">
 <section class="categorias">
     <nav>
@@ -85,3 +61,4 @@
     </article>
 </body>
 </html>
+<%- include ('../partials/footer') %>
