@@ -146,6 +146,10 @@ article{
 }
 
 /* FOOTER inicio */
+footer{
+    width: 100%;
+    margin-top: 10px;
+}
 
 footer section {
     background-color: rgba(35, 98, 182, 0.966);
@@ -154,6 +158,8 @@ footer section {
     color: white;
     display: flex;
     text-align: center;
+    width: 90%;
+    margin:auto;
 }
 
 .copyright{

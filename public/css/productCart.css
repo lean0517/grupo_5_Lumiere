@@ -173,40 +173,7 @@ h2 {
 
 /* ===== FOOTER ===== */
 
-footer section {
-  background-color: rgba(35, 98, 182, 0.966);
-  padding: 10px 30px;
-  border-radius: 8px;
-  color: white;
-  display: flex;
-  text-align: center;
-}
 
-.copyright{
-  text-align: left;
-  color:gray;
-  font-size:16px;
-}
-
-.textoLegales {
-  color: gray;
-  font-size: 10px;
-}
-
-footer section i {
-  color:white;
-  font-size: 2em;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-article {
-  margin-bottom: 10px;
-  border-top: solid 1px #ebebeb;
-  text-align: left;
-  padding: 8px;
-  margin: 5px;
-}
 
 /* ===== MEDIA QUERY ===== */
 
