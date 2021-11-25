@@ -61,8 +61,8 @@ body{
     font-family:'Work Sans', sans-serif ;
     
 }
-article{
-    width: 90%;
+.art-producto{
+    width: 85%;
     border: rgba(35, 98, 182, 0.966) solid 4px;
     margin: auto;
     margin-top: 3%;
@@ -74,7 +74,7 @@ article{
     
 }
 .producto,
-h3{
+.titulo-producto{
     color: rgba(35, 98, 182, 0.966) ;
     font-size: 20px;
     font-weight: bold;
@@ -116,7 +116,7 @@ h3{
     .datos{
         display: flex;
     }
-    h3{
+    .titulo-producto{
         display: none;
     }
     .select-cat{
