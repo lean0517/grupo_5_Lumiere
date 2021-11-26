@@ -63,11 +63,12 @@ header{
 
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     background-color: #fff;
-    width: 50%;
+    width: 80%;
     height: 480px;
     margin: 30px auto;
     border-radius: 10px;
@@ -112,7 +113,7 @@ header{
   margin-left: 10px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -143,6 +144,7 @@ header{
   justify-content: center; 
 }
 
+
 .pagoCompra h3 {
   margin-right: 30px;
 }
@@ -171,7 +173,7 @@ h2 {
   font-weight: bold;
 }
 
-/* ===== FOOTER ===== */
+
 
 
 
