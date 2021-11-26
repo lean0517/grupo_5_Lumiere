@@ -35,3 +35,15 @@ Sitios similares (al menos 5)
 === SPTRINT 2 ===
 
 Link tablero de trabajo: https://trello.com/b/beeym8Nq/lumiere-e-commerse
+
+=== SPRINT 3 ===
+
+Link tablero de trabajo: https://trello.com/b/beeym8Nq/lumiere-e-commerse
+- Se actualizaron el estado de algunas tareas
+
+Retrospectiva
+
+A pesar que el grupo tiene un integrante menos, pudimos generar una mejor comunicacion y dedicacion para este sprint. No creo que haya que mejorar nada puntual, solo seguir trabajando de esta manera.
+
+
+

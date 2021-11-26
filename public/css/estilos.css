@@ -1,10 +1,45 @@
-
-
-body{
-    font-family:'Work Sans', sans-serif ;
+body {
+    font-family:'Work Sans', sans-serif;
 }
 
-header{
+/* ===== BARRA DE BUSQUEDA =====*/
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.search-form input {
+    border-top: 1px solid rgb(207, 206, 206);
+    border-left: 1px solid rgb(207, 206, 206);
+    border-bottom: 1px solid rgb(207, 206, 206);
+    border-right: none;
+    border-radius: 8px 0 0 8px;
+    padding: 10px;
+    width: 1000px;
+    outline: none;
+}
+
+.search-form i {
+    border-top: 1px solid rgb(207, 206, 206);
+    border-right: 1px solid rgb(207, 206, 206);
+    border-bottom: 1px solid rgb(207, 206, 206);
+    border-left: none;
+    border-radius: 0 8px 8px 0;
+    padding: 10px;
+    background-color: white;
+    color: rgb(177, 174, 174);
+}
+
+/* -------- FIN BARRA*/
+
+header {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -18,34 +53,34 @@ header{
     padding-right: 5px;
 }
 
-.sitio a{
+.sitio a {
     color:darkcyan;
     text-decoration: none;
 }
 
-.sitio{
+.sitio {
     list-style: none;
     padding-right: 20px;
     display: flex;
 }
 
-.sitio div{
+.sitio div {
     padding-right: 10px;
 }
 
-.categorias{
+.categorias {
     background-color: rgb(225, 234, 235);
     width: 100%;
     border-radius: 5px;
 }
 
-.categorias nav{
+.categorias nav {
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
 
-.categorias nav div{
+.categorias nav div {
     padding: 10px;
 }
 
@@ -69,7 +104,7 @@ header{
     margin: auto;
 }
 
-.select-cat{
+.select-cat {
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -78,7 +113,7 @@ header{
     border-radius: 5px;
 }
 
-.cat{
+.cat {
     width: 250px;
     padding: 8px;
     font-size: 14px;
@@ -88,19 +123,19 @@ header{
     text-align: center;
 }
 
-.ofertas{
+.ofertas {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     margin: 5%;
 }
 
-.ofertas article{
+.ofertas article {
     border: solid rgba(35, 98, 182, 0.966) 4px;
     border-radius: 15px;
 }
 
-article{
+article {
     margin-bottom: 10px;
     border-top: solid 1px #ebebeb;
     text-align: left;
@@ -108,35 +143,35 @@ article{
     margin: 5px;
 }
 
-.ofertas article a{
+.ofertas article a {
     text-decoration: none;
 }
 
-.datos-producto{
+.datos-producto {
     color: rgba(35, 98, 182, 0.966);
 }
 
-.datos-producto i{
+.datos-producto i {
     display: block;
     text-align: right;
     margin-right: 10%;
 }
 
-.pd{
+.pd {
     display: flex;
     align-items: center;
 }
 
-.precio{
+.precio {
     margin-right: 5%;
     font-size: 28px;
 }
 
-.descripcion{
+.descripcion {
     color: black;
 }
 
-.carrito{
+.carrito {
     background-color: rgba(35, 98, 182, 0.966);
     padding: 10px 30px;
     border-radius: 8px;
@@ -145,8 +180,9 @@ article{
     text-align: center;
 }
 
-/* FOOTER inicio */
-footer{
+/* ===== FOOTER INICIO ===== */
+
+footer {
     width: 100%;
     margin-top: 10px;
 }
@@ -162,7 +198,7 @@ footer section {
     margin:auto;
 }
 
-.copyright{
+.copyright {
     text-align: left;
     color:gray;
     font-size:16px;
@@ -180,12 +216,24 @@ footer section {
     text-align: center;
     align-items: center;
 }
-section article h3{
+section article h3 {
     text-align: center;
 }
-/*FOOTER fin */
+/* ===== FOOTER fin ===== */
+
+/* ===== MEDIA QUERY ===== */
 
 @media (max-width:768px){
+
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header .search-form input {
+        width: auto;
+    }
+
     .categorias{
         display: none;
     }
@@ -208,12 +256,30 @@ section article h3{
     .select-cat{
         display: none;
     }
-    
+
+    .search-form input {
+        width: auto;
+    }
 }
 
 @media (max-width:1080px){
-    .oferta4{
+    .oferta4 {
         display:none;
+    }
+}
+
+@media (min-width:1080px){
+    .oferta4 {
+        display:none;
+    }
+
+    .search-form input {
+        width: 500px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-around;
     }
 }
 

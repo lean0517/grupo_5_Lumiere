@@ -17,4 +17,5 @@ const mainController = {
         return res.render('products/productCart')
     },
 }
+
 module.exports=mainController;

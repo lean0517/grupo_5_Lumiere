@@ -14,10 +14,8 @@ header {
 }
 
 .sitio a {
-    
     color:darkcyan;
     text-decoration: none;
-    
 }
 
 .sitio {
@@ -93,4 +91,40 @@ section {
     background-color: rgb(225, 234, 235);
     padding: 5px 15px;
     color: blue;
+}
+
+/* ===== MEDIA QUERY ===== */
+
+@media (max-width:768px){
+
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header .search-form input {
+        width: auto;
+    }
+}
+
+@media (min-width:768px){
+    .select-cat{
+        display: none;
+    }
+
+    .search-form input {
+        width: auto;
+    }
+}
+
+@media (min-width:1080px){
+
+    .search-form input {
+        width: 500px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
 }
