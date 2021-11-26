@@ -1,55 +1,61 @@
-*{
+* {
     box-sizing: border-box;
 }
-header{
+
+header {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    
 }
+
 .logo {
     width: 150px;
     height: 150px;
     padding-left: 10px;
     padding-right: 5px;
 }
-.sitio a{
-    
+
+.sitio a {
     color:darkcyan;
     text-decoration: none;
-    
 }
-.sitio{
+
+.sitio {
     list-style: none;
     padding-right: 20px;
     display: flex;
 }
-.sitio div{
+
+.sitio div {
     padding-right: 10px;
 }
-.categorias{
+
+.categorias {
     background-color: rgb(225, 234, 235);
     width: 100%;
-    
 }
-.categorias nav{
+
+.categorias nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-.categorias nav div{
+
+.categorias nav div {
     padding: 10px;
 }
-.select-cat{
+
+.select-cat {
     display: flex;
     justify-content: center;
     padding: 20px;
     background-color: rgb(225, 234, 235);
     margin: 0px;
 }
-.cat{
+
+.cat {
     width: 250px;
     padding: 8px;
     font-size: 14px;
@@ -57,11 +63,12 @@ header{
     color: white;
     border-radius: 10px;
 }
-body{
+
+body {
     font-family:'Work Sans', sans-serif ;
-    
 }
-.art-producto{
+
+.art-producto {
     width: 85%;
     border: rgba(35, 98, 182, 0.966) solid 4px;
     margin: auto;
@@ -69,58 +76,66 @@ body{
     border-radius: 10px;
     padding: 2%;
 }
-.descripcion ul li{
+
+.descripcion ul li {
     width: 100%;
-    
 }
+
 .producto,
-.titulo-producto{
+.titulo-producto {
     color: rgba(35, 98, 182, 0.966) ;
     font-size: 20px;
     font-weight: bold;
 } 
   
-.descripcion{
+.descripcion {
     background-color: rgb(225, 234, 235);
     padding: 2%;
     border-radius: 10px;
     margin: 0%;
 }
-.precio{
+
+.precio {
     color:rgba(35, 98, 182, 0.966) ;
     font-size: 28px;
     margin: 20px;
 }
+
 .medios-pago,
-.envio{
+.envio {
     color: darkcyan;
     margin-bottom: 5px;
     padding: 5px 5px 0px 15px;
 }
-.carrito{
+
+.carrito {
     background-color: rgba(35, 98, 182, 0.966);
     padding: 10px 30px;
     margin: 10px 0 0 30px;
     border-radius: 8px;
     color: white;
 }
+
 @media (max-width:768px){
     .producto{
         display: none;
     }
+
     .categorias{
         display: none;
     }
 }
+
 @media(min-width:768px){
     .datos{
         display: flex;
     }
+
     .titulo-producto{
         display: none;
     }
+
     .select-cat{
         display: none;
     }
-    
 }
