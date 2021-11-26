@@ -69,8 +69,10 @@ body {
 }
 
 .barras {
-    padding: 2px;
+    padding: 2px 8px;
     border-radius: 5px;
+    opacity: 60%;
+    font-style: italic;
 }
 
 section {
@@ -78,11 +80,6 @@ section {
     margin-left: 20%;
 }
 
-::placeholder {
-    padding: 10px;
-    opacity: 60%;
-    font-style: italic;
-}
 
 /* ===== MEDIA QUERY ===== */
 

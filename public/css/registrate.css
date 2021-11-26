@@ -64,6 +64,9 @@ section {
 
 .barra {
     border-radius: 5px;
+    opacity: 60%;
+    font-style: italic;
+    padding: 2px 8px;
 }
 
 .chek {
@@ -76,11 +79,7 @@ section {
     justify-content: center;
 }
 
-::placeholder {
-    opacity: 60%;
-    font-style: italic;
-    padding: 10px;
-}
+
 
 #fecha.barra {
     padding: 0px 10px;
