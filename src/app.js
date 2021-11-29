@@ -12,6 +12,8 @@ app.use('/registrate', mainRouter)
 app.use('/login', mainRouter)
 app.use('/productdetail', mainRouter)
 app.use('/productcart', mainRouter)
+app.use('/crearProducto', mainRouter)
+app.use('/editarProducto', mainRouter)
 
 app.set('view engine', 'ejs')
 app.set ('views', path.resolve(__dirname,'views'))

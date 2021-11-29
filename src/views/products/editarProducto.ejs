@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include ('../partials/head') %>
+    <link rel="stylesheet" href="css/editarProducto.css">
+    <title>Admin-Crear producto</title>
+</head>
+    <%- include ('../partials/header') %>
+<img src="/img/banner_electrodomesticos.png" width="100%">
+<body>
+    <section>
+    <h3 class="editarProducto">Modifique los datos del producto</h3>
+        <div class="cont-formulario">
+            <form action= "/" method="post">
+                <div><label for= Nombre>Nombre del producto:</label></div>
+                <div><input class="barra" type= "Nombre" id=Nombre name="Nombre" placeholder="Nombre"></div><br>
+
+                <label for="descripcion">Descripción del producto:</label><br>
+                <textarea name="descripcion" id="descripcion"></textarea><br>
+            
+                <div><label for= Categoria>Categoria</label></div>
+                <div><input class="barra" type= "text" id=categoria name="categoria" placeholder="categoria"></div><br>
+
+            
+                <div><label>Color del producto</label></div><br>
+                <div class="contenedor-chek">
+                    <div class="chek">
+                        <input class="azul" type="checkbox" name="color" value="azul"><label>azul</label><br>
+                        <input class="rojo" type="checkbox" name="color" value="rojo"><label>rojo</label><br>
+                        <input class="blanco" type="checkbox" name="color" value="blanco"><label>blanco</label><br>
+                        <input class="beige" type="checkbox" name="color" value="beige"><label>beige</label><br>
+                        <input class="negro" type="checkbox" name="color" value="negro"><label>negro</label><br>
+                    </div>
+                </div><br>
+
+                <div><label for=Precio>Precio:</label></div>
+                <div><input class="barra" type= "text" id=Precio name=Precio ></div><br>
+                
+                <label>Imagen del producto:</label>
+                <input type="file" name="fotoDeProducto" accept=".jpg"><br>
+
+                <div>
+                    <button class="botones" type="reset">Borrar Todo</button>
+                    <button class="botones" type="submit">Ingresar producto</button>
+                </div>
+            </form>
+        </div>
+        
+    </section>
+</body>
+</html>
+<%- include ('../partials/footer') %>       

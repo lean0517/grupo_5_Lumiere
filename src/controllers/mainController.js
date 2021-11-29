@@ -16,6 +16,12 @@ const mainController = {
     productCart: function (req, res){
         return res.render('products/productCart')
     },
+    crearProducto: function (req, res){
+        return res.render('products/crearProducto')
+    },
+    editarProducto: function (req, res){
+        return res.render('products/editarProducto')
+    },
 }
 
 module.exports=mainController;
