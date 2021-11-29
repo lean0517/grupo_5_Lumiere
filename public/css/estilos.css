@@ -270,9 +270,7 @@ section article h3 {
 }
 
 @media (min-width:1080px){
-    .oferta4 {
-        display:none;
-    }
+    
 
     .search-form input {
         width: 500px;
