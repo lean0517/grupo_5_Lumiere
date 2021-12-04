@@ -1,0 +1,29 @@
+[
+ {
+  "id": "1",
+  "nombre": "Dario",
+  "apellido": "Carena",
+  "email": "darocarena@lumiere.com",
+  "contraseña": "abc123",
+  "categoria": "-",
+  "image": "daro.jpg"   
+ },
+ {
+  "id": "2",
+  "nombre": "Alejandro",
+  "apellido": "Alturria",
+  "email": "alealturria@lumiere.com",
+  "contraseña": "abc456",
+  "categoria": "-",
+  "image": "ale.jpg"            
+ },
+ {
+  "id": "3",
+  "nombre": "Leandro",
+  "apellido": "Ortiz",
+  "email": "leaortiz@lumiere.com",
+  "contraseña": "abc789",
+  "categoria": "-",
+  "image": "lea.jpg"     
+ }
+]

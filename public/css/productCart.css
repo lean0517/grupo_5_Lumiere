@@ -22,8 +22,13 @@ header {
 }
 
 .sitio a {
-  color:darkcyan;
+  color:rgba(35, 98, 182, 0.966);
   text-decoration: none;
+  margin-right: 2px;
+}
+
+.sitio a i {
+  color: rgb(102, 99, 99);
 }
 
 .sitio {
@@ -89,6 +94,8 @@ header {
   width: 80%;
   margin: auto;
   border: solid 4px rgba(35, 98, 182, 0.966);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
 .detalleCompra {

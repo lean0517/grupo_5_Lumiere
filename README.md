@@ -32,7 +32,7 @@ Sitios similares (al menos 5)
 - https://www.coppel.com.ar – Elegido por el tipo de productos que venden y  por su forma de visualizar las ofertas.
 
 
-=== SPTRINT 2 ===
+=== SPRINT 2 ===
 
 Link tablero de trabajo: https://trello.com/b/beeym8Nq/lumiere-e-commerse
 
@@ -41,9 +41,14 @@ Link tablero de trabajo: https://trello.com/b/beeym8Nq/lumiere-e-commerse
 Link tablero de trabajo: https://trello.com/b/beeym8Nq/lumiere-e-commerse
 - Se actualizaron el estado de algunas tareas
 
-Retrospectiva
+=== SPRINT 4 ===
 
-A pesar que el grupo tiene un integrante menos, pudimos generar una mejor comunicacion y dedicacion para este sprint. No creo que haya que mejorar nada puntual, solo seguir trabajando de esta manera.
+Link tablero de trabajo: https://trello.com/b/beeym8Nq/lumiere-e-commerse
+- Se agregaron tareas pendientes y completas, correspondientes al sprint 4.
+
+Retrospectiva:
+
+Venimos bastante bien con las tareas y los tiempos. Hay que mantener este ritmo; estamos mas unidos que la Scaloneta.
 
 
 
