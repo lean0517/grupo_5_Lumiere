@@ -1,38 +1,46 @@
 [
- {
-  "id": 1,
-  "name": "SECADOR DE PELO TEKNIKPRO",
-  "price": 8500,
-  "discount": 20,
-  "category": "ofertas",
-  "description": "Su exclusiva tecnología NANO TOURMALINE brinda a la fibra capilar el cuidado más destacado ya que previene que el cabello se debilite a causa del extremo calor.",
-  "image": "SecadorOferta.jpg"
- },
- {
-  "id": 2,
-  "name": "DIFUSOR ULTRASONICO 300ML GADNIC",
-  "price": 3500,
-  "discount": 45,
-  "category": "ofertas",
-  "description": "¡Tecnología de vaporización ultrasónica! No utiliza calor, lo que permite que el difusor de esencias de gran capacidad GADNIC mantenga la integridad y las propiedades holísticas.",
-  "image": "DifusorOferta.jpg"
- },
- {
-  "id": 3,
-  "name": "ASPIRADORA INALAMBRICA ELECTROLUX ERG26",
-  "price": 25500,
-  "discount": 15,
-  "category": "ofertas",
-  "description": "La aspiradora ERG26 de Electrolux cuenta con una capacidad de 420 ml. A su vez, posee boquilla Pet Care, que consiste en un cepillo motorizado con mejor desempeño en alfombras resultando ideal para pelos de mascotas. Además, cuenta con luz frontal.",
-  "image": "AspiradoraOferta.jpg"
- },
- {
-  "id": 4,
-  "name": "SMART TV SAMSUNG SERIES 7 UN50TU7000GCZB LED 4K 50P",
-  "price": 47900,
-  "discount": 5,
-  "category": "ofertas",
-  "description": "Su increíble calidad de imagen es posible gracias al procesador Crystal UHD 4K, el cual ofrece amplia gama de colores vivos y vibrantes; Su estilo minimalista e ilimitado se aprecia desde todos los ángulos",
-  "image": "TelevisorOferta.jpg"
- }
+  {
+    "id": 1,
+    "name": "SECADOR DE PELO TEKNIKPRO",
+    "price": 8500,
+    "discount": 20,
+    "category": "ofertas",
+    "description": "Su exclusiva tecnología NANO TOURMALINE brinda a la fibra capilar el cuidado más destacado ya que previene que el cabello se debilite a causa del extremo calor.",
+    "image": "SecadorOferta.jpg"
+  },
+  {
+    "id": 2,
+    "name": "DIFUSOR ULTRASONICO 300ML GADNIC",
+    "price": 3500,
+    "discount": 45,
+    "category": "ofertas",
+    "description": "¡Tecnología de vaporización ultrasónica! No utiliza calor, lo que permite que el difusor de esencias de gran capacidad GADNIC mantenga la integridad y las propiedades holísticas.",
+    "image": "DifusorOferta.jpg"
+  },
+  {
+    "id": 3,
+    "name": "ASPIRADORA INALAMBRICA ELECTROLUX ERG26",
+    "price": 25500,
+    "discount": 15,
+    "category": "ofertas",
+    "description": "La aspiradora ERG26 de Electrolux cuenta con una capacidad de 420 ml. A su vez, posee boquilla Pet Care, que consiste en un cepillo motorizado con mejor desempeño en alfombras resultando ideal para pelos de mascotas. Además, cuenta con luz frontal.",
+    "image": "AspiradoraOferta.jpg"
+  },
+  {
+    "id": 4,
+    "name": "SMART TV SAMSUNG SERIES 7 UN50TU7000GCZB LED 4K 50P",
+    "price": 47900,
+    "discount": 5,
+    "category": "ofertas",
+    "description": "Su increíble calidad de imagen es posible gracias al procesador Crystal UHD 4K, el cual ofrece amplia gama de colores vivos y vibrantes; Su estilo minimalista e ilimitado se aprecia desde todos los ángulos",
+    "image": "TelevisorOferta.jpg"
+  },
+  {
+    "id": 5,
+    "image": "default-image.png"
+  },
+  {
+    "id": 6,
+    "image": "default-image.png"
+  }
 ]
