@@ -34,13 +34,6 @@
     "category": "ofertas",
     "description": "Su increíble calidad de imagen es posible gracias al procesador Crystal UHD 4K, el cual ofrece amplia gama de colores vivos y vibrantes; Su estilo minimalista e ilimitado se aprecia desde todos los ángulos",
     "image": "TelevisorOferta.jpg"
-  },
-  {
-    "id": 5,
-    "image": "default-image.png"
-  },
-  {
-    "id": 6,
-    "image": "default-image.png"
   }
+  
 ]

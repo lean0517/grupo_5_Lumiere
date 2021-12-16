@@ -38,6 +38,7 @@ const controller = {
 		// 	description:req.body.description,
 		// 	image:"default-image.png"
 		// }
+		console.log("body",req.body)
 		newProduct={
 			id:newID,
 			...req.body,
@@ -55,7 +56,7 @@ const controller = {
 	edit: (req, res) => {
 		let idProducto=req.params.id;
 		productoMostrar=products.find(element => element.id == idProducto)
-		res.render("product-edit-form",{productToEdit:productoMostrar})
+		res.render("products/editarProducto",{productToEdit:productoMostrar})
 	},
 	// Update - Method to update
 	update: (req, res) => {
