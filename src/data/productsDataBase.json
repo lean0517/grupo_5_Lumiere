@@ -36,11 +36,11 @@
     "image": "TelevisorOferta.jpg"
   },
   {
-    "id": 5,
+    "id": "5",
     "name": "Notebook",
-    "price": "150000",
+    "price": "170000",
     "discount": "10",
-    "category": "visited",
+    "category": "",
     "description": "Notebook Lenovo Legion",
     "image": "default-image.png"
   }

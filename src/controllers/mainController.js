@@ -13,9 +13,9 @@ const mainController = {
     // productDetail: function (req, res){
     //     return res.render('products/productDetail')
     // },
-    // productCart: function (req, res){
-    //     return res.render('products/productCart')
-    // },
+    productCart: function (req, res){
+        return res.render('products/productCart')
+    },
     // crearProducto: function (req, res){
     //     return res.render('products/crearProducto')
     // },
