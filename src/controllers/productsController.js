@@ -16,12 +16,12 @@ const controller = {
 	detail: (req, res) => {
 		let idProducto=req.params.id;
 		productoMostrar=products.find(element => element.id == idProducto)
-		res.render("products/productDetail",{productos:productoMostrar})
+		res.render("products/detail",{productos:productoMostrar})
 	},
 
 	// Create - Form to create
 	create: (req, res) => {
-		res.render("products/product-create-form");
+		res.render("./products/product-create-form");
 	},
 	
 	// Create -  Method to store
@@ -56,7 +56,7 @@ const controller = {
 	edit: (req, res) => {
 		let idProducto=req.params.id;
 		productoMostrar=products.find(element => element.id == idProducto)
-		res.render("products/editarProducto",{productToEdit:productoMostrar})
+		res.render("products/product-edit-form",{productToEdit:productoMostrar})
 	},
 	// Update - Method to update
 	update: (req, res) => {
