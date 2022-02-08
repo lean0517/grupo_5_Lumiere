@@ -44,6 +44,7 @@ header {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-color: white;
 }
 
 .logo {
@@ -57,10 +58,11 @@ header {
     color:rgba(35, 98, 182, 0.966);
     text-decoration: none;
     margin-right: 2px;
+    font-size: 15px;
 }
 
 .sitio a i {
-    color: rgb(102, 99, 99);
+    color:  #1259c3;
 }
 
 .sitio {
@@ -88,7 +90,7 @@ header {
 .categorias nav div {
     padding: 10px;
 }
-
+/* ====================HOME ejs=====================*/
 .cartel-ofertas {
     background-color: rgba(35, 98, 182, 0.966);
     font-size: 45px;
@@ -152,19 +154,25 @@ article {
     text-decoration: none;
 }
 
+/* ===== Esto al final no lo usamos creo====
 .datos-producto {
     color: rgba(35, 98, 182, 0.966);
 }
 
 .datos-producto i {
-    display: block;
-    text-align: right;
+    display: flex;
     margin-right: 10%;
+    justify-content: start;
 }
-
+*/
 .pd {
     display: flex;
     align-items: center;
+    ;
+}
+
+.pd i {
+    margin-left: 40%;
 }
 
 .precio {
@@ -172,9 +180,19 @@ article {
     font-size: 28px;
 }
 
-.descripcion {
+/*.descripcion {
     color: black;
+    background-color:rgba(195, 225, 255, 0.966) ;
+    border-radius: 50%;
 }
+*/
+.descripcion{
+    color:gray;
+    transition: 500ms;
+    }
+.descripcion:hover {
+    color:black; 
+    }
 
 .carrito {
     background-color: rgba(35, 98, 182, 0.966);
@@ -184,7 +202,7 @@ article {
     display: block;
     text-align: center;
 }
-
+/* fin home ejs /*
 /* ===== FOOTER INICIO ===== */
 
 footer {

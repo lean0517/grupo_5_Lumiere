@@ -23,7 +23,7 @@ html,
 body {
   min-height: 100vh;
   margin: 0;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 body {
@@ -48,10 +48,6 @@ a {
 figure {
   margin: 0;
   padding: 0;
-}
-
-img {
-  width: 100%;
 }
 
 input,
@@ -148,6 +144,12 @@ hr {
   background-position: center center;
   height: 100px;
 }
+/* Categorias abajo del banner*/
+.categorias{
+  font-size: medium;
+  color: black
+  
+}
 
 
 /*====== Products ======*/
@@ -208,25 +210,21 @@ hr {
   transition: 300ms;
   overflow: hidden;
 }
-
-.product-box_data i {
-  color: var(--green);
-  font-size: 1.8em;
-  width: 35px;
-  height: 35px;
-  text-align: center;
-  border: solid 1px;
+/*rotacion del camioncito*/
+.datos-producto i {
+  color: green;
+  padding: 8px;
+  border: 1px solid #39b54a;
   border-radius: 50%;
-  position: absolute;
-  top: -15px;
-  right: 15px;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 300ms;
+  background-color: #FFF;
+  transition:1500ms;
+  width: min-content;
+  text-align: right;
 }
-
+.datos-producto i:hover {
+  transform: rotateZ(-90deg) ;
+}
+/*----------------*/
 .product-box:hover {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
@@ -243,144 +241,21 @@ hr {
 
 
 /*====== Footer ======*/
-.main-footer {
-  background-color: #ffffff;
-  padding: 20px 0;
-  margin-top: 80px;
-}
-
-.footer-data {
+footer{
+  font-size: medium;
   text-align: center;
-}
-
-.footer-data i {
-  color: var(--light-blue);
-  font-size: 3.5em;
-}
-
-.footer-data h2 {
-  color: var(--gray);
-  font-size: 2.4em;
-  font-weight: 400;
-}
-
-.footer-data p {
-  color: var(--gray);
-  font-size: 1.5em;
-  font-weight: 300;
-}
-
-.sub-footer {
-  border-top: 1px solid var(--light-gray);
+  color: gray;
+  border-top: 1px solid var(--light-blue);
   background-color: #ffffff;
 }
-
-.sub-footer p {
-  margin: 0;
-  color: var(--gray);
-  padding: 15px 0;
+.textoLegales{
+  font-size: 13px;
 }
+.copyright{
+  font-size: 13px;
+  text-align: center;
 
-
-/*====== Product Detail ======*/
-.product-detail {
-  background-color: #ffffff;
-  border-radius: 8px;
-  overflow: hidden;
 }
-
-.product-detail-img {
-  width: 70%;
-  display: block;
-  margin: auto;
-}
-
-.product-detail-info {
-  border-left: 1px solid var(--light-gray);
-  padding: 15px;
-  height: 100%;
-}
-
-.product-detail-title {
-  font-weight: 400;
-  font-size: 2.8em;
-}
-
-.product-detail-description {
-  padding: 15px;
-  font-size: 1.8em;
-  line-height: 1.5;
-}
-
-.product-detail-price {
-  font-size: 5.5em;
-  margin: 10px 0;
-}
-
-.small {
-  font-size: 1.8em;
-  color: var(--green);
-}
-
-.small span {
-  text-decoration: line-through;
-}
-
-.actions-list {
-  margin-bottom: 50px;
-}
-
-.actions-list li {
-  display: flex;
-  align-items: center;
-  margin: 20px 0;
-  padding: 20px 0;
-}
-
-.actions-list i {
-  color: var(--green);
-  font-size: 2em;
-  margin-right: 15px;
-}
-
-.actions-list p {
-  color: var(--gray);
-  font-size: 1.7em;
-  margin: 0;
-}
-
-.buy-now-button {
-  background-color: var(--light-blue);
-  font-size: 1.6em;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 15px;
-  border-radius: 8px;
-  border: none;
-  margin-bottom: 15px;
-}
-
-.action-button {
-  border: none;
-  border-radius: 8px;
-  font-size: 1.2em;
-  color: #ffffff;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 15px 30px;
-  margin-top: 15px;
-}
-
-.action-button.edit {
-  background-color: chocolate;
-}
-.action-button.delete {
-  background-color: rgb(248, 69, 37);
-}
-
 
 /*====== Formularios ======*/
 .form-label {

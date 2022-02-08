@@ -1,49 +1,50 @@
 <!DOCTYPE html>
-<html lang="es">
-<!-- Include Head -->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="/css/detail.css">;
+    <%- include ('../partials/head') %>
+    
+    <title>Inicia Sesion</title>
+</head>
+<%- include ('../partials/header') %>
+<img src="/img/banner_electrodomesticos.png" width="100%">
+
+<section class="categorias">
+	<nav>
+	   <div>Tv, video y audio</div>
+	   <div>Tecnologia y celulares</div>
+	   <div>Climatización</div>
+	   <div>Electrohogar</div>
+	   <div>Cuidado Personal</div>
+	</nav>
+</section>
 
 <body>
-	<!-- Header -->
-	
-	<!-- /Header -->
-
 	<!-- product detail -->
-	<div class="container products-wrapper">
-		<div class="row">
-			<div class="col-12">
-				<h2 class="products-title">Detalle del producto: <%= productos.name %></h2>
-			</div>
-		</div>
+	<div class="container-products">		
 		<div class="product-detail">
-			<div class="row">
-				<div class="col-12 col-lg-8">
-					<img src="/images/products/<%= productos.image %>" alt="product image" class="product-detail-img">
-					<p class="product-detail-description">
-						<%= productos.description %>
-					</p>
-				</div>
-				<div class="col-12 col-lg-4">
+					<img src="/img/<%= productos.image %>" alt="product image" class="product-detail-img">
+				
 					<article class="product-detail-info">
 						<h2 class="product-detail-title"><%= productos.name %></h2>
 						
-							<p class="product-detail-price small">
-								<span>$<%= productos.price %></span>
+								<p class="product-detail-price-small">
+								<span><strike>$<%= productos.price %></strike></span>
 								/
-								<b><%= productos.discount %>% OFF</b>
-							</p>
-							<p class="product-detail-price">
+								<b class="descuento"><%= productos.discount %>% OFF</b>
+								</p>
+							<p class="product-detail-finalPrice">
 								$<%= productos.price * (1-(productos.discount/100))%>
 							</p>
-							<p class="product-detail-price">
-								$<%= productos.price %>
-							</p>
-
+							<p class="product-detail-description">
+						<%= productos.description %>
+					</p>
 						<ul class="actions-list">
-							<li>
+							<li class="list">
 								<i class="fas fa-credit-card"></i>
 								<p>Pagá en 12 cuotas sin interes</p>
 							</li>
-							<li>
+							<li class="list">
 								<i class="fas fa-store"></i>
 								<p>Retiro gratis en locales del vendedor</p>
 							</li>
@@ -53,18 +54,18 @@
 						<hr>
 
 						<a href="/products/edit/<%= productos.id %>" class="action-button edit">EDITAR PRODUCTO</a>
-						<form action="/products/<%= productos.id %>" method="POST" style="display: inline-flex">
+						<form action="/products/delete/<%= productos.id %>" method="POST" style="display: inline-flex">
 							<button type="submit" class="action-button delete">ELIMINAR</button>
 						</form>
 					</article>
-				</div>
-			</div>
 		</div>
 	</div>
 	<!-- /product detail -->
 
-	<!-- footer -->
+	
 	
 
 </body>	
+<!-- FOOTER -->
+<%- include ('../partials/footer') %>
 </html>

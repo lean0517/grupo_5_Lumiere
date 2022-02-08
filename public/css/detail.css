@@ -1,0 +1,127 @@
+.products-title{
+    width: 100%;
+    font-size: 35px;
+    color: grey;
+    text-align: left;
+
+}
+/*====== Product Detail ======*/
+/*Datos de detalle de producto*/
+.container-products{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    text-align: center;
+}
+.product-detail {
+    background-color: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 80%;
+    
+  }
+  
+  .product-detail-img {
+    height: 460px;
+    width: 45%;
+    padding: 10px;
+    display: inline-block;
+  }
+  
+  .product-detail-info {
+    border-left: 1px solid var(--light-gray);
+    padding: 15px;
+    height: 100%;
+  }
+  
+  .product-detail-title {
+    font-weight: 400;
+    font-size:28px;
+  }
+  
+  .product-detail-description {
+    background-color: rgb(225, 234, 235);
+    padding: 2%;
+    border-radius: 10px;
+    margin: 0%;
+    font-size: medium;
+  }
+  
+.product-detail-price-small{
+    font-size: 15px;
+    margin: 10px 0;
+  }
+  .descuento{
+    font-size: 15px;
+    margin: 10px 0;
+    color:#39b54a ;
+  }
+
+  .product-detail-finalPrice{
+    font-size: 25px;
+    margin: 10px 0;
+  }
+
+  .actions-list {
+    margin-bottom: 50px;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px 0;
+    display: flex;
+  }
+  .list {
+    display:flex;
+    padding-left:30px;
+    padding-right:30px; 
+  }
+  
+  .actions-list i {
+    color: var(--green);
+    font-size: 2em;
+    margin-right: 15px;
+  }
+  
+  .actions-list p {
+    color: var(--gray);
+    font-size: 1.3em;
+    margin: 0;
+  }
+  
+  .buy-now-button {
+    background-color: var(--light-blue);
+    font-size: 1.6em;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 15px;
+  }
+  .buy-now-button:hover {
+      background-color: #39b54a;
+      transition: background-color, 1s;
+  }
+  
+  .action-button {
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    margin-top: 15px;
+  }
+  .action-button.edit {
+    background-color: chocolate;
+  }
+  .action-button.delete {
+    background-color: rgb(248, 69, 37);
+  }
