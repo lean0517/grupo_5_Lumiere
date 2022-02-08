@@ -1,11 +1,6 @@
 [
   {
-    "id": 1,
-    "name": "SECADOR DE PELO TEKNIKPRO",
-    "price": 8500,
-    "discount": 20,
-    "category": "ofertas",
-    "description": "Su exclusiva tecnología NANO TOURMALINE brinda a la fibra capilar el cuidado más destacado ya que previene que el cabello se debilite a causa del extremo calor.",
+    "id": "1",
     "image": "SecadorOferta.jpg"
   },
   {
@@ -42,6 +37,15 @@
     "discount": "10",
     "category": "",
     "description": "Notebook Lenovo Legion",
+    "image": "default-image.png"
+  },
+  {
+    "id": "51",
+    "name": "Tablet",
+    "price": "10000",
+    "discount": "10",
+    "category": "in-sale",
+    "description": "Tablet Lenovo 10\"",
     "image": "default-image.png"
   }
 ]
