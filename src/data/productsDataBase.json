@@ -1,8 +1,14 @@
 [
   {
-    "id": "1",
+    "id": 1,
+    "name": "SECADOR DE PELO TEKNIKPRO",
+    "price": 8500,
+    "discount": 20,
+    "category": "ofertas",
+    "description": "Su exclusiva tecnología NANO TOURMALINE brinda a la fibra capilar el cuidado más destacado ya que previene que el cabello se debilite a causa del extremo calor.",
     "image": "SecadorOferta.jpg"
   },
+
   {
     "id": 2,
     "name": "DIFUSOR ULTRASONICO 300ML GADNIC",
@@ -29,23 +35,5 @@
     "category": "ofertas",
     "description": "Su increíble calidad de imagen es posible gracias al procesador Crystal UHD 4K, el cual ofrece amplia gama de colores vivos y vibrantes; Su estilo minimalista e ilimitado se aprecia desde todos los ángulos",
     "image": "TelevisorOferta.jpg"
-  },
-  {
-    "id": "5",
-    "name": "Notebook",
-    "price": "170000",
-    "discount": "10",
-    "category": "",
-    "description": "Notebook Lenovo Legion",
-    "image": "default-image.png"
-  },
-  {
-    "id": "51",
-    "name": "Tablet",
-    "price": "10000",
-    "discount": "10",
-    "category": "in-sale",
-    "description": "Tablet Lenovo 10\"",
-    "image": "default-image.png"
   }
 ]

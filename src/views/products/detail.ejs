@@ -34,7 +34,8 @@
 								<b class="descuento"><%= productos.discount %>% OFF</b>
 								</p>
 							<p class="product-detail-finalPrice">
-								$<%= productos.price * (1-(productos.discount/100))%>
+								$<%= (productos.price * (1-(productos.discount/100))).toFixed(2)%>
+
 							</p>
 							<p class="product-detail-description">
 						<%= productos.description %>
@@ -54,7 +55,7 @@
 						<hr>
 
 						<a href="/products/edit/<%= productos.id %>" class="action-button edit">EDITAR PRODUCTO</a>
-						<form action="/products/delete/<%= productos.id %>" method="POST" style="display: inline-flex">
+						<form action="/products/delete/<%= productos.id %>?_method=DELETE" method="POST" style="display: inline-flex">
 							<button type="submit" class="action-button delete">ELIMINAR</button>
 						</form>
 					</article>
