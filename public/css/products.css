@@ -1,0 +1,149 @@
+/*====== Products ======*/
+
+html {
+  background-image:url("../img/fondo-lumiere.jpg")
+}
+
+.products-title {
+font-size: 2.4em;
+font-weight: 400;
+color: var(--gray);
+text-align: center;
+border: solid rgba(35, 98, 182, 0.966) 4px;
+background-color: white;
+}
+
+.contenedor-de-productos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 5%;
+}
+
+section.producto{
+  background-color:  rgb(245, 244, 244);
+}
+
+.producto{
+  border: solid rgba(35, 98, 182, 0.966) 4px;
+  border-radius: 15px;
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.product-box_image {
+  margin-top: 20px;
+  display: flex;
+}
+/* datos del producto */
+.datos-producto {
+color: rgba(0, 0, 0, 0.966);
+padding: 8px;
+margin: 5px;
+}
+.pd {
+display: flex;
+align-items:center;
+}
+  
+.pd i {
+margin-left: 20%;
+}
+  
+  
+
+.precio {
+display: block;
+margin-right: 5%;
+font-size: 2em;
+width: auto;
+}
+ 
+.descuento{
+display: block;
+font-size: 1.5em;
+margin: 10px 0;
+color:#39b54a ;
+}
+
+
+article i {
+color: green;
+padding: 8px;
+border: 1px solid #39b54a;
+border-radius: 50%;
+background-color: #FFF;
+transition:1500ms;
+width: min-content;
+
+}
+
+.datos-producto i:hover {
+transform: rotateZ(-90deg) ;
+}
+
+.nombre{
+display:flex;
+color:rgb(70, 69, 69);
+transition: 500ms;
+font-size: 20px;
+}
+  
+.nombre:hover {
+color:black; 
+}
+
+/*====== Footer ======*/
+footer {
+  width: 100%;
+  margin-top: 10px;
+}
+
+footer section {
+  background-color: rgba(35, 98, 182, 0.966);
+  padding: 10px 30px;
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  text-align: center;
+  width: 90%;
+  margin:auto;
+}
+
+.copyright {
+  text-align: left;
+  color:black;
+  font-size:16px;
+  background-color: white;
+  border-radius:15px ;
+  border:15px;
+  margin: 5px
+}
+
+.textoLegales {
+  color: black;
+  font-size: 10px;
+  background-color: white;
+  border-radius:15px ;
+  border:15px;
+  margin: 5px
+}
+
+.icono {
+  color:white;
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-align: center;
+  align-items: center;
+}
+section article h3 {
+  text-align: center;
+}
+
+/* para que no se decoren los hipervinculos */
+a:link, a:visited, a:active {
+  text-decoration:none;
+}
