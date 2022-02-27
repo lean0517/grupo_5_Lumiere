@@ -2,18 +2,16 @@
 <html lang="en">
 <head>
     <%- include ('../partials/head') %>
-    <link href='/css/estilos.css' rel='stylesheet'>
-<link rel="stylesheet" href="/css/app.css">;
-    <link rel="stylesheet" href="css/registrate.css">
+<link rel="stylesheet" href="/css/footer-head-header.css">
+<link rel="stylesheet" href="css/registrate.css">
     <title>Registrate</title>
 </head>
     <%- include ('../partials/header') %>
 <img src="/img/banner_electrodomesticos.png" width="100%">
 <body>
-    <section>
     <h3 class="titulo-registro">¡Ingrese sus datos para registrarse y comenzar a comprar!</h3>
         <div class="cont-formulario">
-            <form action= "/users" method="post">
+            <form class="form" action= "/users" method="post">
                 <div><label for= email></label></div>
                 <div><input class="barra" type= "email" id=email name="email" placeholder="Email"></div><br>
     
@@ -52,8 +50,6 @@
                 </div>
             </form>
         </div>
-        
-    </section>
 </body>
 </html>
 <%- include ('../partials/footer') %>       
