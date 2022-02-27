@@ -70,5 +70,14 @@
     "category": "Destacados",
     "description": "Con tu consola PlayStation 5 tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos. Adaptada a tus necesidades. Guardá tus apps, fotos, videos y mucho más en el disco duro, que cuenta con una capacidad de 825 GB. Al contar con un procesador de 8 núcleos y uno gráfico, brinda una experiencia dinámica, respuestas ágiles, y transiciones fluidas de imágenes en alta definición. Por otro lado, tiene puerto USB y salida HDMI, que permiten conectar accesorios y cargar la batería de tu control mientras jugás.",
     "image": "PlayStation5Destacado.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Termo Stanley",
+    "price": "13000",
+    "discount": "10",
+    "category": "visited",
+    "description": "Termo barbaro",
+    "image": "products-1646000335457.jpg"
   }
 ]

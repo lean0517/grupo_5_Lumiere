@@ -11,7 +11,7 @@
 <body>
     <h3 class="titulo-registro">¡Ingrese sus datos para registrarse y comenzar a comprar!</h3>
         <div class="cont-formulario">
-            <form class="form" action= "/users" method="post">
+            <form class="form" action= "/users" method="post" enctype="multipart/form-data">
                 <div><label for= email></label></div>
                 <div><input class="barra" type= "email" id=email name="email" placeholder="Email"></div><br>
     
@@ -37,12 +37,17 @@
                         <input type="checkbox" name="categoriasDeInteres" value="Cuidado Personal"><label>Cuidado Personal</label><br>
                     </div>
                 </div><br>
+
+                <div><label for="user-image">Imagen de Perfil</label></div>
+                <div><input type="file" name="user-image"></div>
+                
+
                         
-                <div><label for= contraceña></label></div>
-                <div><input class="barra" type= "password" id=contraceña name="contraceña" placeholder="Contraseña"></div><br>
+                <div><label for= contraseña></label></div>
+                <div><input class="barra" type= "password" id=contraseña name="contraseña" placeholder="contraseña"></div><br>
             
-                <div><label for= ConfirmarContraceña></label></div>
-                <div><input class="barra" type= "password" id=ConfirmarContraceña name="ConfirmarContraceña" placeholder="Confirmar contraseña"></div><br>
+                <div><label for= ConfirmarContraseña></label></div>
+                <div><input class="barra" type= "password" id=ConfirmarContraseña name="ConfirmarContraseña" placeholder="Confirmar contraseña"></div><br>
             
                 <div>
                     <button class="botones" type="reset">Borrar Todo</button>

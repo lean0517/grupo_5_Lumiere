@@ -6,7 +6,7 @@
     "email": "darocarena@lumiere.com",
     "contraseña": "abc123",
     "categoria": "-",
-    "image": "daro.jpg"
+    "image": "default-image.png"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "email": "alealturria@lumiere.com",
     "contraseña": "abc456",
     "categoria": "-",
-    "image": "ale.jpg"
+    "image": "default-image.png"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "email": "leaortiz@lumiere.com",
     "contraseña": "abc789",
     "categoria": "-",
-    "image": "lea.jpg"
+    "image": "default-image.png"
   },
   {
     "id": 4,
@@ -34,8 +34,8 @@
     "Fecha-De-Nacimiento": "2022-02-02",
     "domicilio": "adasd",
     "categoriasDeInteres": "Tecnologia y celulares",
-    "contraceña": "asdas",
-    "ConfirmarContraceña": "asdd",
+    "contraseña": "asdas",
+    "ConfirmarContraseña": "asdd",
     "image": "default-image.png"
   },
   {
