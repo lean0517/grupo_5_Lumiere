@@ -155,15 +155,6 @@ article {
 }
 
 /* ===== Esto al final no lo usamos creo====
-.datos-producto {
-    color: rgba(35, 98, 182, 0.966);
-}
-
-.datos-producto i {
-    display: flex;
-    margin-right: 10%;
-    justify-content: start;
-}
 */
 .pd {
     display: flex;

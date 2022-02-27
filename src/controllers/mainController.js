@@ -4,9 +4,9 @@ const mainController = {
     index: function (req, res){
         return res.render('home')
     },
-    registrate: function (req, res){
-        return res.render('users/registrate')
-    },
+    // registrate: function (req, res){
+    //     return res.render('users/registrate')
+    // },
     login: function (req, res){
         return res.render('users/login')
     },

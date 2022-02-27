@@ -1,29 +1,53 @@
 [
- {
-  "id": "1",
-  "nombre": "Dario",
-  "apellido": "Carena",
-  "email": "darocarena@lumiere.com",
-  "contraseña": "abc123",
-  "categoria": "-",
-  "image": "daro.jpg"   
- },
- {
-  "id": "2",
-  "nombre": "Alejandro",
-  "apellido": "Alturria",
-  "email": "alealturria@lumiere.com",
-  "contraseña": "abc456",
-  "categoria": "-",
-  "image": "ale.jpg"            
- },
- {
-  "id": "3",
-  "nombre": "Leandro",
-  "apellido": "Ortiz",
-  "email": "leaortiz@lumiere.com",
-  "contraseña": "abc789",
-  "categoria": "-",
-  "image": "lea.jpg"     
- }
+  {
+    "id": 1,
+    "nombre": "Dario",
+    "apellido": "Carena",
+    "email": "darocarena@lumiere.com",
+    "contraseña": "abc123",
+    "categoria": "-",
+    "image": "daro.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Alejandro",
+    "apellido": "Alturria",
+    "email": "alealturria@lumiere.com",
+    "contraseña": "abc456",
+    "categoria": "-",
+    "image": "ale.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Leandro",
+    "apellido": "Ortiz",
+    "email": "leaortiz@lumiere.com",
+    "contraseña": "abc789",
+    "categoria": "-",
+    "image": "lea.jpg"
+  },
+  {
+    "id": 4,
+    "email": "asdasd@asdasd.com",
+    "nombre-completo": "asdsd",
+    "usuario": "asdasd",
+    "Fecha-De-Nacimiento": "2022-02-02",
+    "domicilio": "adasd",
+    "categoriasDeInteres": "Tecnologia y celulares",
+    "contraceña": "asdas",
+    "ConfirmarContraceña": "asdd",
+    "image": "default-image.png"
+  },
+  {
+    "id": 5,
+    "email": "asdasd@csd.com",
+    "nombre-completo": "asdasd",
+    "usuario": "asdasd",
+    "Fecha-De-Nacimiento": "2022-02-02",
+    "domicilio": "asdasd",
+    "categoriasDeInteres": "TV, Audio y Video",
+    "contraceña": "adasdsad",
+    "ConfirmarContraceña": "asdasd",
+    "image": "default-image.png"
+  }
 ]

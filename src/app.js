@@ -3,6 +3,7 @@ const app = express ();
 const path = require ("path");
 const mainRouter = require('./routes/main');
 const productsRouter = require('./routes/products');
+const usersRouter = require('./routes/users');
 const methodOverride = require("method-override")
 
 app.listen ( process.env.PORT || 3000 , () => {
@@ -15,7 +16,7 @@ app.use(methodOverride("_method"));
 app.use(express.static(path.resolve(__dirname, '../public')))
 app.use('/products', productsRouter);
 app.use("/",mainRouter)
-
+app.use("/users",usersRouter)
 
 // app.use('/', mainRouter)
 // app.use('/registrate', mainRouter)

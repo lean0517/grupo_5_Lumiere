@@ -28,11 +28,47 @@
   },
   {
     "id": 4,
-    "name": "SMART TV SAMSUNG SERIES 7 UN50TU7000GCZB LED 4K 50P",
+    "name": "SMART TV SAMSUNG SERIES 7 LED 4K 50P",
     "price": 47900,
     "discount": 5,
     "category": "ofertas",
     "description": "Su increíble calidad de imagen es posible gracias al procesador Crystal UHD 4K, el cual ofrece amplia gama de colores vivos y vibrantes; Su estilo minimalista e ilimitado se aprecia desde todos los ángulos",
     "image": "TelevisorOferta.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Lavasecarropas automático Whirlpool WCF09BY inverter",
+    "price": 98.499,
+    "discount": 10,
+    "category": "destacados",
+    "description": "Whirlpool es sinónimo de tecnología de punta, diseño e innovación pensados para simplificar el día a día. Un electrodoméstico para toda la vida.Trabaja solo.Únicamente necesita que se introduzcan los productos de limpieza y se elija el programa deseado. A diferencia de los semiautomáticos, no requiere que estés presente en todas las etapas del proceso, por lo que vas a tener prendas limpias y perfumadas sin esfuerzo.Tecnología inverter:Reduce el ruido y las vibraciones, aún en velocidad máxima de centrifugado. A su vez, requiere un menor consumo de agua y electricidad.",
+    "image": "LavaropasDestacado.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Licuadora Peabody PE-LN800 1.5 L roja con jarra de vidrio 220V",
+    "price": 9800,
+    "discount": 20,
+    "category": "Destacados",
+    "description": "Un electrodoméstico infaltable en tu casa. La licuadora Peabody PE-LN800 te va a ayudar a obtener resultados increíbles en todo lo que prepares, ya sea que quieras disfrutar de una bebida bien fría, de salsas y sopas, o de postres deliciosos. ¡Tenela siempre a mano! -Su función pulsar te permite poner en marcha el producto de forma intermitente según lo necesites o de acuerdo al contenido de la jarra. Su cierre de seguridad impide accidentes por descuidos y preserva la limpieza de tu cocina al evitar derrames. -Es apta para moler hielo en segundos y preparar smoothies refrescantes en los días de calor. Además, podés hacer tus propios tragos de coctelería en casa sin necesidad de ir a un bar. Ahora el bartender ¡Sos vos! -Su cuchilla removible asegura que el lavado sea impecable y evita la acumulación de residuos que podrían perjudicar el sabor de los alimentos.",
+    "image": "LicuadoraDestacado.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Combo 4 Sillas Kansas 1 Mesa Redonda Negra Mascardi",
+    "price": 24550,
+    "discount": 15,
+    "category": "Destacados",
+    "description": "Combo 4 Sillas Kansas 1 Mesa Redonda Negra Mascardi: Sillas Kansas:  Alto:  88cm / Profundidad: 41cm / Ancho: 43cm Mesa Redonda: 100cm",
+    "image": "JuegoDeJardinDestacado.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Sony PlayStation 5 825GB Standard color blanco y negro",
+    "price": 249999,
+    "discount": 5,
+    "category": "Destacados",
+    "description": "Con tu consola PlayStation 5 tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos. Adaptada a tus necesidades. Guardá tus apps, fotos, videos y mucho más en el disco duro, que cuenta con una capacidad de 825 GB. Al contar con un procesador de 8 núcleos y uno gráfico, brinda una experiencia dinámica, respuestas ágiles, y transiciones fluidas de imágenes en alta definición. Por otro lado, tiene puerto USB y salida HDMI, que permiten conectar accesorios y cargar la batería de tu control mientras jugás.",
+    "image": "PlayStation5Destacado.jpg"
   }
 ]
