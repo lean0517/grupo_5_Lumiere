@@ -1,11 +1,10 @@
 body {
-    display: flex;
+    
     align-items: center;
     text-align: center;
 }
 
 .cont-formulario {
-    display: flex;
     border: rgba(35, 98, 182, 0.966) solid 5px;
     padding:  10px;
     text-align: center;

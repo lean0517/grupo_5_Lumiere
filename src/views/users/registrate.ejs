@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="/css/footer-head-header.css">
+    <link rel="stylesheet" href="/css/registrate.css">
     <%- include ('../partials/head') %>
-<link rel="stylesheet" href="/css/footer-head-header.css">
-<link rel="stylesheet" href="css/registrate.css">
+
     <title>Registrate</title>
 </head>
     <%- include ('../partials/header') %>
@@ -11,37 +12,63 @@
 <body>
     <h3 class="titulo-registro">¡Ingrese sus datos para registrarse y comenzar a comprar!</h3>
         <div class="cont-formulario">
+            
             <form class="form" action= "/users" method="post" enctype="multipart/form-data">
                 <div><label for= email></label></div>
-                <div><input class="barra" type= "email" id=email name="email" placeholder="Email"></div><br>
+                <div><input class="barra" type= "email" id=email name="email" placeholder="Email"  
+                    value= "<%= locals.oldData ? oldData.email : null %>" ></div><br>
+                <% if (locals.errors && errors.email) { %>
+                    <div>
+                        <%= errors.email.msg %>
+                    </div>
+                <% } %>
     
-                <div><label for= nombre-completo></label></div>
-                <div><input class="barra" type= "text" id=nombre-completo name="nombre-completo" placeholder="Nombre completo"></div><br>
-            
+                <div><label for= nombreCompleto></label></div>
+                <div><input class="barra" type= "text" id=nombreCompleto name="nombreCompleto" placeholder="Nombre completo"
+                    value= "<%= locals.oldData ? oldData.nombreCompleto : null %>" ></div><br>
+                <% if (locals.errors && errors.nombreCompleto) { %>
+                    <div>
+                        <%= errors.nombreCompleto.msg %>
+                    </div>
+                <% } %>
                 <div><label for= usuario></label></div>
-                <div><input class="barra" type= "text" id=usuario name="usuario" placeholder="Usuario"></div><br>
-
+                <div><input class="barra" type= "text" id=usuario name="usuario" placeholder="Usuario"
+                    value= "<%= locals.oldData ? oldData.usuario : null %>" ></div><br>
+                <% if (locals.errors && errors.usuario) { %>
+                    <div>
+                        <%= errors.usuario.msg %>
+                    </div>
+                <% } %>
                 <div><label>Fecha de nacimiento:</label></div>
                 <div><input class="barra" type= "date" id=fecha name="Fecha-De-Nacimiento" ></div><br>
             
                 <div><label for= domicilio></label></div>
                 <div><input class="barra" type= "text" id=domicilio name="domicilio" placeholder="Domicilio"></div><br>
                 
-                <div><label>¿Cuales son sus categorias de interes?</label></div><br>
-                <div class="contenedor-chek">
-                    <div class="chek">
-                        <input type="checkbox" name="categoriasDeInteres" value="TV, Audio y Video"><label>TV, Audio y Video</label><br>
-                        <input type="checkbox" name="categoriasDeInteres" value="Tecnologia y celulares"><label>Tecnologia y celulares</label><br>
-                        <input type="checkbox" name="categoriasDeInteres" value="Climatización"><label>Climatización</label><br>
-                        <input type="checkbox" name="categoriasDeInteres" value="Electrohogar"><label>Electrohogar</label><br>
-                        <input type="checkbox" name="categoriasDeInteres" value="Cuidado Personal"><label>Cuidado Personal</label><br>
-                    </div>
-                </div><br>
-
-                <div><label for="user-image">Imagen de Perfil</label></div>
-                <div><input type="file" name="user-image"></div>
+                <div><label>Categoria favorita</label></div><br>
+                <select name="categorias">
+                    <option value="">Elegi tu favorita</option>
+                <%    
+                    let categorias = ['TV, Audio y Video', 'Tecnologia y celulares', 'Climatización', 'Electrohogar', 'Cuidado Personal']
+                %>
+                <% for (const oneCategoria of categorias) { %>
+                    <option 
+                        value="<%=oneCategoria %>"
+                        <%= locals.oldData && (oneCategoria === oldData.categorias) ? 'selected' :null %>
+                    > <%= oneCategoria %>  </option>
+                   
+                <% } %>
+                </select>
                 
-
+                <br>
+                <div><label for="userImage">Imagen de Perfil</label></div>
+                <div><input type="file" name="userImage"></div>
+                <% if (locals.errors && errors.userImage) { %>
+                    <div>
+                        <%= errors.userImage.msg %>
+                    </div>
+                <% } %>
+                <br>
                         
                 <div><label for= contraseña></label></div>
                 <div><input class="barra" type= "password" id=contraseña name="contraseña" placeholder="contraseña"></div><br>
@@ -58,3 +85,14 @@
 </body>
 </html>
 <%- include ('../partials/footer') %>       
+
+
+<!-- <div class="contenedor-chek">
+    <div class="chek">
+        <input type="checkbox" name="categoriasDeInteres" value="TV, Audio y Video"><label>TV, Audio y Video</label><br>
+        <input type="checkbox" name="categoriasDeInteres" value="Tecnologia y celulares"><label>Tecnologia y celulares</label><br>
+        <input type="checkbox" name="categoriasDeInteres" value="Climatización"><label>Climatización</label><br>
+        <input type="checkbox" name="categoriasDeInteres" value="Electrohogar"><label>Electrohogar</label><br>
+        <input type="checkbox" name="categoriasDeInteres" value="Cuidado Personal"><label>Cuidado Personal</label><br>
+    </div>
+</div><br> -->

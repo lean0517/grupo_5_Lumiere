@@ -1,35 +1,8 @@
 [
   {
     "id": 1,
-    "nombre": "Dario",
-    "apellido": "Carena",
-    "email": "darocarena@lumiere.com",
-    "contraseña": "abc123",
-    "categoria": "-",
-    "image": "default-image.png"
-  },
-  {
-    "id": 2,
-    "nombre": "Alejandro",
-    "apellido": "Alturria",
-    "email": "alealturria@lumiere.com",
-    "contraseña": "abc456",
-    "categoria": "-",
-    "image": "default-image.png"
-  },
-  {
-    "id": 3,
-    "nombre": "Leandro",
-    "apellido": "Ortiz",
-    "email": "leaortiz@lumiere.com",
-    "contraseña": "abc789",
-    "categoria": "-",
-    "image": "default-image.png"
-  },
-  {
-    "id": 4,
     "email": "asdasd@asdasd.com",
-    "nombre-completo": "asdsd",
+    "nombreCompleto": "asdsd",
     "usuario": "asdasd",
     "Fecha-De-Nacimiento": "2022-02-02",
     "domicilio": "adasd",
@@ -39,9 +12,9 @@
     "image": "default-image.png"
   },
   {
-    "id": 5,
+    "id": 2,
     "email": "asdasd@csd.com",
-    "nombre-completo": "asdasd",
+    "nombreCompleto": "asdasd",
     "usuario": "asdasd",
     "Fecha-De-Nacimiento": "2022-02-02",
     "domicilio": "asdasd",
@@ -49,5 +22,68 @@
     "contraceña": "adasdsad",
     "ConfirmarContraceña": "asdasd",
     "image": "default-image.png"
+  },
+  {
+    "id": 3,
+    "email": "lean_0517@hotmail.com",
+    "nombreCompleto": "Leandro",
+    "usuario": "lea17",
+    "Fecha-De-Nacimiento": "1991-05-17",
+    "domicilio": "av. Diaz Velez 4334 7A",
+    "categoriasDeInteres": [
+      "TV, Audio y Video",
+      "Tecnologia y celulares"
+    ],
+    "contraseña": "$2a$10$f6ndNSXfKcYyLT4/wdgZ9OYY0Sg2cFFeRDgEwKva/49GvniWOGksW",
+    "ConfirmarContraseña": "$2a$10$f6ndNSXfKcYyLT4/wdgZ9OYY0Sg2cFFeRDgEwKva/49GvniWOGksW",
+    "image": "user-1646005424082.jpg"
+  },
+  {
+    "id": 4,
+    "email": "lortiz@conect-it.com.ar",
+    "nombreCompleto": "Leandro",
+    "usuario": "lea17",
+    "Fecha-De-Nacimiento": "2022-02-23",
+    "domicilio": "Laferrere 254",
+    "categoriasDeInteres": "TV, Audio y Video",
+    "contraseña": "$2a$10$FdPvWlT4FAGzCBlf1R2FPeYfjjyJtdYgcUmuh.VXC5WCYQwhKMpcO",
+    "ConfirmarContraseña": "$2a$10$FdPvWlT4FAGzCBlf1R2FPeYfjjyJtdYgcUmuh.VXC5WCYQwhKMpcO",
+    "image": "default-image.png"
+  },
+  {
+    "id": 5,
+    "email": "ale@ale.com",
+    "nombreCompleto": "Alejandro Alturria",
+    "usuario": "AleAl",
+    "Fecha-De-Nacimiento": "1990-04-14",
+    "domicilio": "calle falsa 123",
+    "categorias": "Tecnologia y celulares",
+    "contraseña": "$2a$10$7Btl5YDz0t31QY/TMWEi1eZm.nVaqkYO7TduSZ1CtED4GdaNonptS",
+    "ConfirmarContraseña": "$2a$10$7Btl5YDz0t31QY/TMWEi1eZm.nVaqkYO7TduSZ1CtED4GdaNonptS",
+    "userImage": "user-1646029324893.jpg"
+  },
+  {
+    "id": 6,
+    "email": "lainna.hemillys1@gmail.com",
+    "nombreCompleto": "Alejandro Alturria",
+    "usuario": "AleAl",
+    "Fecha-De-Nacimiento": "1909-04-14",
+    "domicilio": "calle falsa 123",
+    "categorias": "TV, Audio y Video",
+    "contraseña": "$2a$10$peqqxHOpKHCREqbKC8BJQ.17ZTTp2dQnIeqtI72i0Klo6.5kaLV2S",
+    "ConfirmarContraseña": "$2a$10$peqqxHOpKHCREqbKC8BJQ.17ZTTp2dQnIeqtI72i0Klo6.5kaLV2S",
+    "userImage": "user-1646029463406.jpg"
+  },
+  {
+    "id": 7,
+    "email": "leandro.ortiz@it-one.com.ar",
+    "nombreCompleto": "Alejandro Alturria",
+    "usuario": "AleAla",
+    "Fecha-De-Nacimiento": "1990-04-14",
+    "domicilio": "calle falsa 123",
+    "categorias": "TV, Audio y Video",
+    "contraseña": "$2a$10$.LNmmWa9.0ktgU5yEXI/TuPaExtDWJeaGdP5pmrjTxO9jcAR4Of.q",
+    "ConfirmarContraseña": "$2a$10$.LNmmWa9.0ktgU5yEXI/TuPaExtDWJeaGdP5pmrjTxO9jcAR4Of.q",
+    "userImage": "user-1646029799658.jpg"
   }
 ]
