@@ -7,9 +7,9 @@ const mainController = {
     // registrate: function (req, res){
     //     return res.render('users/registrate')
     // },
-    login: function (req, res){
-        return res.render('users/login')
-    },
+    // login: function (req, res){
+    //     return res.render('users/login')
+    // },
     // productDetail: function (req, res){
     //     return res.render('products/productDetail')
     // },

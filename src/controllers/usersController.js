@@ -5,7 +5,8 @@ const usuarios = JSON.parse(fs.readFileSync(usuariosFilePath, 'utf-8'));
 const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 const bcrypt = require('bcryptjs');
 const User = require ('../models/User')
-const { validationResult } = require('express-validator');
+const { validationResult, header } = require('express-validator');
+const sessions=require ('express-session');
 
 
 const controller = {
@@ -15,13 +16,30 @@ const controller = {
 	},
         
     storeDeUsuarios: (req, res) => {
+		let userInDB = User.findByField('email', req.body.email);
+	
+		if (userInDB) {
+			return res.render ((path.resolve(__dirname, "../views/users/registrate.ejs" )), {
+				errors:{
+					email:{
+						msg:'Este email ya esta registrado'
+					}
+					
+				},
+				oldData:req.body
+			});
+			
+		}
 		let resultValidation = validationResult(req);
 		if (resultValidation.errors.length>1){
 				res.render ('./users/registrate',{
 				errors: resultValidation.mapped(),
 				oldData: req.body,
 			})
-		}else{
+		}
+		
+		
+		else{
 			
 			let unaOpcionQueNoUsemos=JSON.stringify(req.body)
 			const listadoDeUsuarios = JSON.parse(fs.readFileSync(usuariosFilePath, 'utf-8'));
@@ -43,28 +61,38 @@ const controller = {
 			fs.writeFileSync(usuariosFilePath,usuariosJSON);
 			res.send('Usuario cargado exitosamente')
 			}
-
-
-
 	},
+	login: function (req, res){
+        return res.render('users/login')
+    },
 
-
+	procesoLogin: (req, res) =>{
+		let userTologin = User.findByField ('email', req.body.email)
+		if (userTologin){
+			let passwordCorrecta = bcrypt.compareSync (req.body.contraseña, userTologin.contraseña);
+			if(passwordCorrecta){
+				req.session.userLogged = userTologin;
+				return res.redirect ('home');
+			}
+		}
+		return res.render (path.resolve(__dirname, "../views/users/login.ejs" ),{
+			errors: {
+				email: {
+					msg:'Las credenciales son ivalidas'
+				}
+			}
+		});
+	
+	},
+	perfil:(req,res)=> {
+		let users =req.session.userLogged;
+				return res.render('home', {
+					users : users
+				})
+				
+				
+	}
 	
 }
 
 module.exports=controller
-
-
-
-			// let userInDB = User.findByField('email', req.body.email);
-	
-			// if (userInDB) {
-			// 	return res.render ((path.resolve(__dirname, "../views/users/registrate.ejs" )), {
-			// 		errors:{
-			// 			email:{
-			// 				msg:'Este email ya esta registrado'
-			// 			}
-			// 		},
-			// 		oldData:req.body
-			// 	});
-			// }

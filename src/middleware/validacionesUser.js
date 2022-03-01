@@ -3,7 +3,7 @@ const path = require ('path');
 
 let validateRegistro = [
     check('email').notEmpty().withMessage('el email es requerido').bail()
-                .isEmail().withMessage('Debe ingresar un email valido'),
+                .isEmail().withMessage('Debe ingresar un email valido'),             
    check('nombreCompleto').notEmpty().withMessage('el nombre completo es requerido').bail()
                 .isLength({min:5}).withMessage('El nombre es muy corto'),
     check('usuario').notEmpty().withMessage('el usuario es requerido').bail()

@@ -1,10 +1,10 @@
 [
   {
-    "id": 1,
-    "name": "SECADOR DE PELO TEKNIKPRO",
-    "price": 8500,
-    "discount": 20,
-    "category": "ofertas",
+    "id": "1",
+    "name": "SECADOR",
+    "price": "8500",
+    "discount": "10",
+    "category": "",
     "description": "Su exclusiva tecnología NANO TOURMALINE brinda a la fibra capilar el cuidado más destacado ya que previene que el cabello se debilite a causa del extremo calor.",
     "image": "SecadorOferta.jpg"
   },
@@ -79,5 +79,14 @@
     "category": "visited",
     "description": "Termo barbaro",
     "image": "products-1646000335457.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Parlantes Bluethoot",
+    "price": "4000",
+    "discount": "10",
+    "category": "in-sale",
+    "description": "Parlante ",
+    "image": "products-1646094517133.jpg"
   }
 ]
