@@ -91,6 +91,11 @@ const controller = {
 				})
 				
 				
+	},
+	logout: (req, res) => {
+		res.clearCookie('userEmail');
+		req.session.destroy();
+		return res.redirect('/');
 	}
 	
 }
