@@ -11,7 +11,7 @@ let validateRegistro = [
     check('categrias').notEmpty().withMessage ('Debe elegir su categoria favorita'),
     check('userImage').custom((value, { req }) =>{
         let file =req.file;
-        let extencionesValidas = ['.jpg', 'jpge', 'png' ];
+        let extencionesValidas = ['.jpg', 'jpeg', 'png' ];
 
         
         if (!file){
