@@ -1,11 +1,15 @@
 «<!DOCTYPE html>
 <html lang="es">
 <!-- Include Head -->
-<link rel="stylesheet" href="/css/products.css">;
-<%- include('partials/head', {title: 'Todos los productos'}) %>
+<head>
+	<link rel="stylesheet" href="/css/products.css">;
+	<%- include('../partials/head.ejs') %>	
+	<title>'Todos los productos'</title>
+
+</head>
 <body>
 	<!-- Header -->
-	<%- include('partials/header') %>
+	<%- include('../partials/header') %>
 	<!-- /Header -->
 
 	<!-- todos los productos -->
@@ -38,7 +42,7 @@
 	<!-- /todos los productos -->
 
 	<!-- footer -->
-	<%- include('partials/footer') %>
+	<%-  include('../partials/footer') %>
 	<!-- /footer -->
 </body>	
 </html>
