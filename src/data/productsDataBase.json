@@ -9,15 +9,6 @@
     "image": "SecadorOferta.jpg"
   },
   {
-    "id": 2,
-    "name": "DIFUSOR ULTRASONICO 300ML GADNIC",
-    "price": 3500,
-    "discount": 45,
-    "category": "ofertas",
-    "description": "¡Tecnología de vaporización ultrasónica! No utiliza calor, lo que permite que el difusor de esencias de gran capacidad GADNIC mantenga la integridad y las propiedades holísticas.",
-    "image": "DifusorOferta.jpg"
-  },
-  {
     "id": 3,
     "name": "ASPIRADORA INALAMBRICA ELECTROLUX ERG26",
     "price": 25500,

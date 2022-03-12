@@ -31,7 +31,7 @@ module.exports =(sequelize,datatypes) =>{
             type: datatypes.STRING(100)
         },
         avatar_id:{
-            type: datatypes.INTEGER
+            type: datatypes.STRING(2000)
         }
 
         

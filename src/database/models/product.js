@@ -21,8 +21,8 @@ module.exports =(sequelize,datatypes) =>{
         description:{
             type: datatypes.STRING(1000)
         },
-        id_image: {
-            type: datatypes.INTEGER
+        image: {
+            type: datatypes.STRING(2000)
         }
 
 
