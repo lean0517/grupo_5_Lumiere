@@ -8,7 +8,7 @@ const guestMiddleware = require('../middleware/guestMiddleware')
 
 
 router.get('/registro', usersController.registro);
-router.post('/', upload.single('userImage'),validations, usersController.storeDeUsuarios);
+router.post('/', upload.single('avatar_id'),validations, usersController.storeDeUsuarios);
 
 
 router.get( '/login',  usersController.login);

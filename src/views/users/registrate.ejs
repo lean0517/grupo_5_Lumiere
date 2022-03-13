@@ -23,30 +23,30 @@
                     </div>
                 <% } %>
     
-                <div><label for= nombreCompleto></label></div>
-                <div><input class="barra" type= "text" id=nombreCompleto name="nombreCompleto" placeholder="Nombre completo"
-                    value= "<%= locals.oldData ? oldData.nombreCompleto : null %>" ></div><br>
-                <% if (locals.errors && errors.nombreCompleto) { %>
+                <div><label for= full_name></label></div>
+                <div><input class="barra" type= "text" id=full_name name="full_name" placeholder="Nombre completo"
+                    value= "<%= locals.oldData ? oldData.full_name : null %>" ></div><br>
+                <% if (locals.errors && errors.full_name) { %>
                     <div>
-                        <%= errors.nombreCompleto.msg %>
+                        <%= errors.full_name.msg %>
                     </div>
                 <% } %>
-                <div><label for= usuario></label></div>
-                <div><input class="barra" type= "text" id=usuario name="usuario" placeholder="Usuario"
-                    value= "<%= locals.oldData ? oldData.usuario : null %>" ></div><br>
-                <% if (locals.errors && errors.usuario) { %>
+                <div><label for= user></label></div>
+                <div><input class="barra" type= "text" id=user name="user" placeholder="Usuario"
+                    value= "<%= locals.oldData ? oldData.user : null %>" ></div><br>
+                <% if (locals.errors && errors.user) { %>
                     <div>
-                        <%= errors.usuario.msg %>
+                        <%= errors.user.msg %>
                     </div>
                 <% } %>
                 <div><label>Fecha de nacimiento:</label></div>
-                <div><input class="barra" type= "date" id=fecha name="Fecha-De-Nacimiento" ></div><br>
+                <div><input class="barra" type= "date" id=date_of_birth name="date_of_birth" ></div><br>
             
                 <div><label for= domicilio></label></div>
-                <div><input class="barra" type= "text" id=domicilio name="domicilio" placeholder="Domicilio"></div><br>
+                <div><input class="barra" type= "text" id=address name="address" placeholder="Domicilio"></div><br>
                 
                 <div><label>Categoria favorita</label></div><br>
-                <select name="categorias">
+                <select name="fav_category_id">
                     <option value="">Elegi tu favorita</option>
                 <%    
                     let categorias = ['TV, Audio y Video', 'Tecnologia y celulares', 'Climatización', 'Electrohogar', 'Cuidado Personal']
@@ -54,7 +54,7 @@
                 <% for (const oneCategoria of categorias) { %>
                     <option 
                         value="<%=oneCategoria %>"
-                        <%= locals.oldData && (oneCategoria === oldData.categorias) ? 'selected' :null %>
+                        <%= locals.oldData && (oneCategoria === oldData.fav_category_id) ? 'selected' :null %>
                     > <%= oneCategoria %>  </option>
                    
                 <% } %>
@@ -62,19 +62,19 @@
                 
                 <br>
                 <div><label for="userImage">Imagen de Perfil</label></div>
-                <div><input type="file" name="userImage"></div>
-                <% if (locals.errors && errors.userImage) { %>
+                <div><input type="file" name="avatar_id"></div>
+                <% if (locals.errors && errors.avatar_id) { %>
                     <div>
-                        <%= errors.userImage.msg %>
+                        <%= errors.avatar_id.msg %>
                     </div>
                 <% } %>
                 <br>
                         
                 <div><label for= contraseña></label></div>
-                <div><input class="barra" type= "password" id=contraseña name="contraseña" placeholder="contraseña"></div><br>
+                <div><input class="barra" type= "password" id=password name="password" placeholder="contraseña"></div><br>
             
                 <div><label for= ConfirmarContraseña></label></div>
-                <div><input class="barra" type= "password" id=ConfirmarContraseña name="ConfirmarContraseña" placeholder="Confirmar contraseña"></div><br>
+                <div><input class="barra" type= "password" id=confirm_password name="confirm_password" placeholder="Confirmar contraseña"></div><br>
             
                 <div>
                     <button class="botones" type="reset">Borrar Todo</button>

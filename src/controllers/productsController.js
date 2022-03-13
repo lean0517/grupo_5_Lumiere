@@ -1,7 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-// const { where } = require('sequelize/types');
-// const { brotliDecompress } = require('zlib');
 const db = require("../database/models")
 const sequelize =db.sequelize;
 const productsFilePath = path.join(__dirname, '../data/productsDataBase.json');

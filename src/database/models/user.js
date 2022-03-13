@@ -6,22 +6,22 @@ module.exports =(sequelize,datatypes) =>{
             primaryKey:true,
             type:datatypes.INTEGER
         },
-        fullname: {
+        full_name: {
             type: datatypes.STRING(50)
         },
         email:{
             type: datatypes.STRING(100)
         },
         password: {
-            type: datatypes.STRING(60)
+            type: datatypes.STRING(300)
         },
         confirm_password: {
-            type: datatypes.STRING(60)
+            type: datatypes.STRING(300)
         },
         fav_category_id:{
-            type: datatypes.INTEGER
+            type: datatypes.STRING(100)
         },
-        dat_of_birth: {
+        date_of_birth: {
             type: datatypes.STRING(100)
         },
         address:{
