@@ -15,14 +15,14 @@ const Op =db.Sequelize.Op;
 const controller = {
     
     registro: (req, res) => {
-		res.render(path.resolve(__dirname, "../views/users/registrate.ejs" ));
+		res.render("../views/users/registrate.ejs" );
 	},
         
-    storeDeUsuarios: (req, res) => {
+    storeDeUsuarios: async (req, res) => {
 		// let userInDB = User.findByField('email', req.body.email);
 		
 		let userInDb
-		db.user.findAll({
+		await db.user.findOne({
 			
 			where : {
 				email:  req.body.email
@@ -33,7 +33,7 @@ const controller = {
 		 userInDb=pepe
 		})		
 		if (userInDb) {
-			return res.render ((path.resolve(__dirname, "../views/users/registrate.ejs" )), {
+			return res.render ("../views/users/registrate.ejs" , {
 				errors:{
 					email:{
 						msg:'Este email ya esta registrado'
@@ -42,8 +42,8 @@ const controller = {
 				},
 				oldData:req.body
 				
-			});
-			}
+			})
+		}
 		let resultValidation = validationResult(req);
 		if (resultValidation.errors.length>1){
 			res.render ('./users/registrate',{
@@ -91,22 +91,26 @@ const controller = {
         return res.render('users/login')
     },
 
-	procesoLogin: (req, res) =>{
+	procesoLogin: async (req, res) =>{
 		let userTologin
-		db.user.findAll ({
-			email : req.body.email
+		console.log (req.body)
+		await db.user.findOne ({
+			where : {
+				email:  req.body.email
+			}
 		})
 		.then((usuario)=>{
 			userTologin=usuario
 		})
 		if (userTologin){
+			console.log(userTologin)
 			let passwordCorrecta = bcrypt.compareSync (req.body.password, userTologin.password);
 			if(passwordCorrecta){
 				req.session.userLogged = userTologin;
 				return res.redirect ('home');
 			}
 		}
-		return res.render (path.resolve(__dirname, "../views/users/login.ejs" ),{
+		return res.render ( "../views/users/login.ejs" ,{
 			errors: {
 				email: {
 					msg:'Las credenciales son ivalidas'

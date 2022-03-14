@@ -9,10 +9,10 @@ const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 const controller = {
 	// Root - Show all products
 	
-	index: (req, res) => {
+	index: async (req, res) => {
 		// const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 		// res.render("products",{productos:products})
-		db.product.findAll().then((products)=>{
+		await db.product.findAll().then((products)=>{
 			res.render("products/productos", {productos:products})
 		});
 	},
@@ -58,16 +58,17 @@ const controller = {
 	},
 
 	// Update - Form to edit
-	edit: (req, res) => {
+	edit: async (req, res) => {
 		// let idProducto=req.params.id;
 		// productoMostrar=products.find(element => element.id == idProducto)
 		// res.render("products/product-edit-form",{productToEdit:productoMostrar})
-		db.product.findByPk(req.params.id).then((product)=>{
+		await db.product.findByPk(req.params.id).then((product)=>{
+			console.log(product)
 		res.render("products/product-edit-form",{productos:product})})
 		
 	},
 	// Update - Method to update
-	update: (req, res) => {
+	update: async (req, res) => {
 		// let id=req.params.id
 
 		// let modifiedProduct =products.map(element =>{
@@ -84,10 +85,11 @@ const controller = {
 		// let productsJSON=JSON.stringify(modifiedProduct,null, 2);
 		// fs.writeFileSync(productsFilePath,productsJSON);
 		// res.redirect("/products")
-		db.product.update({
+		console.log(req.body)
+		await db.product.update({
 			name:req.body.name,
 			price:req.body.price,
-			category:req.body.id_category,
+			id_category:req.body.id_category,
 			discount:req.body.discount,
 			description:req.body.description,
 			// image: req.file ==undefined ? product.image : req.file.filname
@@ -95,7 +97,8 @@ const controller = {
 			where: {
 				id_product:req.params.id
 			}
-		})
+		}).then ((producto)=>
+		console.log("producto guardado", producto))
 		res.redirect("/products")
 	
 	},

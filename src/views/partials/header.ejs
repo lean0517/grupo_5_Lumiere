@@ -12,7 +12,7 @@
         <nav>
             <ul class="sitio">
                 <% if(locals.logueado){ %>
-                    <div> Hola <%= locals.usuarioLogueado.nombreCompleto %> ! </div>
+                    <div> Hola <%= locals.usuarioLogueado.full_name %> ! </div>
                     <div><li><a href='/users/logout'>Logout<i class="fal fa-running"></i></a></li></div>
                     <div><li><a href='/productcart'>Carrito<i class="fas fa-shopping-cart"></i></a></li></div>
                     <div><li><a href='/products/create'>Vender<i class="fas fa-shopping-cart"></i></a></li></div>
