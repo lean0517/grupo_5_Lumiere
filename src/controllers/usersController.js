@@ -82,7 +82,7 @@ const controller = {
 			confirm_password:confirmEncriptada,
 			avatar_id:req.file == undefined ? "default-image.png":req.file.filename
 			})
-			return	res.send('Usuario cargado exitosamente')
+			return	res.render('users/newUser')
 		
 		}
 		

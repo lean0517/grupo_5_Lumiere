@@ -1,0 +1,162 @@
+/* ===== NUEVO USUARIO =====*/
+
+.PromoChancha{
+  width: 85%;
+  border: rgba(35, 98, 182, 0.966) solid 4px;
+  margin: auto;
+  margin-top: 3%;
+  border-radius: 10px;
+  padding: 2%;
+}
+
+.contenedorPromo{
+display: flex;
+text-align: center;
+}
+
+.bannerPromo{
+  text-align: center;
+  align-items: center;
+  width: 60%;
+}
+
+.regaloLumiere {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    border: 5px;
+
+}
+
+.qrCode{
+width: 40%;
+align-items: center;
+}
+
+/* ===== BARRA DE BUSQUEDA =====*/
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-form form{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.search-form input {
+  border-top: 1px solid rgb(207, 206, 206);
+  border-left: 1px solid rgb(207, 206, 206);
+  border-bottom: 1px solid rgb(207, 206, 206);
+  border-right: none;
+  border-radius: 8px 0 0 8px;
+  padding: 10px;
+  width: 1000px;
+  outline: none;
+}
+
+.search-form i {
+  border-top: 1px solid rgb(207, 206, 206);
+  border-right: 1px solid rgb(207, 206, 206);
+  border-bottom: 1px solid rgb(207, 206, 206);
+  border-left: none;
+  border-radius: 0 8px 8px 0;
+  padding: 10px;
+  background-color: white;
+  color: rgb(177, 174, 174);
+}
+
+/* -------- FIN BARRA*/
+
+header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ background-color: rgba(35, 98, 182, 0.866);
+  border-radius:10px;
+
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  padding-left: 10px;
+  padding-right: 5px;
+  border-radius: 45%;
+}
+
+.sitio a {
+  color:white;
+  text-decoration: none;
+  margin-right: 2px;
+  font-size: 15px;
+}
+
+.sitio {
+  list-style: none;
+  padding-right: 20px;
+  display: flex;
+  color:  #1259c3;
+}
+
+.sitio div {
+  padding-right: 10px;
+}
+
+
+
+
+/*====== Footer ======*/
+footer {
+  width: 100%;
+  margin-top: 10px;
+}
+
+footer section {
+  background-color: rgba(35, 98, 182, 0.966);
+  padding: 10px 30px;
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  text-align: center;
+  width: 90%;
+  margin:auto;
+}
+
+.copyright {
+  text-align: left;
+  color:black;
+  font-size:16px;
+  background-color: white;
+  border-radius:15px ;
+  border:15px;
+  margin: 5px
+}
+
+.textoLegales {
+  color: black;
+  font-size: 10px;
+  background-color: white;
+  border-radius:15px ;
+  border:15px;
+  margin: 5px
+}
+
+.icono {
+  color:white;
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-align: center;
+  align-items: center;
+}
+section article h3 {
+  text-align: center;
+}
+
+/* para que no se decoren los hipervinculos */
+a:link, a:visited, a:active {
+  text-decoration:none;
+}
