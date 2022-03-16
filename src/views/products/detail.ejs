@@ -28,20 +28,20 @@
 					<img src="/img/products/<%= productos.image %>" alt="product image" class="product-detail-img">
 				
 					<article class="product-detail-info">
-						<h2 class="product-detail-title"><%= productos.name %></h2>
-						
+						<h2 class="product-detail-title"><%= productos.name %>
+							<p class="product-detail-id_category">Categoria: <%= productos.id_category %></p></h2>
 								<p class="product-detail-price-small">
 								<span><strike>$<%= productos.price %></strike></span>
 								/
 								<b class="descuento"><%= productos.discount %>% OFF</b>
 								</p>
-							<p class="product-detail-finalPrice">
-								$<%= (productos.price * (1-(productos.discount/100))).toFixed(2)%>
+								
+							    <p class="product-detail-finalPrice">
+								$<%= (productos.price * (1-(productos.discount/100))).toFixed(2)%></p>
 
-							</p>
-							<p class="product-detail-description">
-						<%= productos.description %>
-					</p>
+							
+							<p class="product-detail-description"><%= productos.description %></p>
+						
 						<ul class="actions-list">
 							<li class="list">
 								<i class="fas fa-credit-card"></i>

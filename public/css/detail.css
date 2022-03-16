@@ -50,6 +50,11 @@
     margin: 0%;
     font-size: medium;
   }
+
+  .product-detail-id_category{
+    font-size: medium;
+    color: black;
+  }
   
 .product-detail-price-small{
     font-size: 15px;

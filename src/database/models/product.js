@@ -16,7 +16,7 @@ module.exports =(sequelize,datatypes) =>{
             type: datatypes.FLOAT
         },
         id_category: {
-            type: datatypes.INTEGER
+            type: datatypes.STRING(255)
         },
         description:{
             type: datatypes.STRING(1000)
