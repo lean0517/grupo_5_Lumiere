@@ -40,11 +40,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
-<<<<<<< HEAD
- background-color: rgba(35, 98, 182, 0.966);
-=======
  background-color: rgba(35, 98, 182, 0.866);
->>>>>>> 8a758b4f9d662f374e4fb4cc9543e90de03e1d80
   border-radius:10px;
 
 }
