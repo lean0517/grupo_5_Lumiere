@@ -4,20 +4,25 @@
     <%- include ('../partials/head') %>
 	<link href='/css/estilos.css' rel='stylesheet'>
     <link rel="stylesheet" href="/css/app.css">;
-    <link rel="stylesheet" href="css/crearProducto.css">
+    <link rel="stylesheet" href="/css/crearProducto.css">
     <title>Admin-Crear producto</title>
+	
 </head>
     <%- include ('../partials/header') %>
 <img src="/img/banner_electrodomesticos.png" width="100%">
 <body>
+	
     <div class="container products-wrapper">
 		<div class="row">
 			<div class="col-12">
 				<h2 class="products-title">Formulario de creación de productos</h2>
 			</div>
 		</div>
+		<div class = "errores">
+			<ul></ul>
+		</div>
 		<div class="col-12">
-			<form action="/products" method="POST" enctype="multipart/form-data" >
+			<form action="/products"  method="POST"  enctype="multipart/form-data" class="pepito" >
 				<div class="row product-detail">
 					<div class="col-12 col-md-6">
 						<label for="name" class="form-label">Nombre del producto:</label>
@@ -52,7 +57,7 @@
 
 					<div>
 						<div><label for="image">Imagen de producto</label></div>
-						<div><input type="file" name="image"></div>
+						<div><input type="file" name="image" id="image" ></div>
 					</div>
 					
 					<div class="col-12">
@@ -63,7 +68,9 @@
 		</div>
 
 	</div>
+	<script src="/jsfront/validacionCrearFront.js"></script>
 </body>
+
 </html>
 <%- include ('../partials/footer') %>       
 
