@@ -14,9 +14,12 @@
 			<div class="col-12">
 				<h2 class="products-title">Estás editando:<%= productos.name%></h2>
 			</div>
+			<div class = "errores">
+				<ul></ul>
+			</div>
 		</div>
 		<div class="col-12">
-			<form action="/products/<%= productos.id_product%>" method="POST">
+			<form action="/products/<%= productos.id_product%>" method="POST" class="editar">
 				<div class="row product-detail">
 					<div class="col-12 col-md-6">
 						<label for="name" class="form-label">Nombre del producto:</label>
@@ -57,7 +60,7 @@
 		</div>
 
 	</div>
-	
+	<script src="/jsfront/validacionEditarFront.js"></script>
 	<!-- /todos los productos -->
 
 	<!-- footer -->

@@ -1,5 +1,3 @@
-
-
 window.addEventListener("load", function(){
 
     let formularioCrear = document.querySelector (".pepito");
@@ -27,7 +25,6 @@ window.addEventListener("load", function(){
 
         //  let extencionesValidas = ['.jpg', 'jpeg', 'png' ];
 
-        
         if (campoImagenProducto.value == ""){
             errores.push ('Tienes que subir una imagen');
             // campoImagenProducto.style.border = '4px #c51244 solid'
@@ -37,7 +34,7 @@ window.addEventListener("load", function(){
         //     if (!extencionesValidas.includes(extencionArchivo)) {
         //         errores.push (`Las extensiones validas son ${extencionesValidas.join(', ')}`)
         //     }
-        }
+            }
         
         // let campoImagenProducto= document.querySelector(".image")
         
