@@ -8,4 +8,7 @@ router.get ('/categories',apiController.productByCategory)
 router.post('/products',apiController.creaProducto)
 router.delete('/products/:id', apiController.eliminarProducto)
 
+router.get('/users', apiController.listarUsuarios)
+router.get('/users/:id', apiController.mostrarUsuario)
+
 module.exports=router

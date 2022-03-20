@@ -31,7 +31,10 @@ const apiController = {
     //crea un producto en la base de datos
     creaProducto: (req,res) => {
         db.product
-        .create(req.body)
+        .create({
+			...req.body,
+			image:req.file == undefined ? "default-image.png":req.file.filename
+			})
         .then (product=>{
             return res.status(200).json({
                 data:product,
@@ -67,6 +70,26 @@ const apiController = {
             })
         })
     },
+    listarUsuarios: (req,res)=>{
+        db.user.findAll()
+        .then (users =>{
+            return res.status(200).json
+            ({total: users.length,
+            data:users,
+            status:200
+        })
+        })
+    },
+    mostrarUsuario: (req,res)=>{
+        db.user.findByPk(req.params.id)
+        .then(users =>{
+            return res.status(200).json({
+                data:users,
+                status:200
+            })
+        })
+    }
+
 }
 
 module.exports= apiController;
