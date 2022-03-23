@@ -13,6 +13,7 @@ router.post('/', upload.single('avatar_id'),validations, usersController.storeDe
 
 router.get( '/login',  usersController.login);
 router.post('/login', usersController.procesoLogin);
+
 router.get('/home', usersController.perfil)
 router.get('/logout', usersController.logout);
 

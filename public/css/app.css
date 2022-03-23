@@ -267,7 +267,6 @@ textarea.form-input {
   background-color: var(--light-gray);
 }
 
-
 /*====== Media-Queries ======*/
 @media (min-width: 768px) {
   .main-header_credit-link {

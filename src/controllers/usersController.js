@@ -53,26 +53,6 @@ const controller = {
 		}		
 		else{
 			
-		// 	let unaOpcionQueNoUsemos=JSON.stringify(req.body)
-		// 	const listadoDeUsuarios = JSON.parse(fs.readFileSync(usuariosFilePath, 'utf-8'));
-		// 	let newID =listadoDeUsuarios[listadoDeUsuarios.length-1].id + 1;
-			
-		// 	let contraseñaEncriptada= bcrypt.hashSync(req.body.contraseña, 10 )
-		// 	newUser={
-		// 		id:newID,
-		// 		...req.body,
-		// 		contraseña:contraseñaEncriptada,
-		// 		ConfirmarContraseña:contraseñaEncriptada,
-		// 		userImage:req.file == undefined ? "default-image.png":req.file.filename
-		// 	}
-			
-		// 	console.log(newUser)
-	
-		// 	listadoDeUsuarios.push(newUser);
-		// 	let usuariosJSON=JSON.stringify(listadoDeUsuarios,null, 2);
-		// 	fs.writeFileSync(usuariosFilePath,usuariosJSON);
-		// 	res.send('Usuario cargado exitosamente')
-		// 	}
 		let contraseñaEncriptada = bcrypt.hashSync(req.body.password, 10 )
 		let confirmEncriptada = bcrypt.hashSync(req.body.confirm_password, 10 )
 		db.user.create({
@@ -87,10 +67,11 @@ const controller = {
 		}
 		
 	},
+	//muetra el formulario al usuario
 	login: function (req, res){
         return res.render('users/login')
     },
-
+ // envia los datos para iniciar sesion del usurio
 	procesoLogin: async (req, res) =>{
 		let userTologin
 		console.log (req.body)
@@ -113,7 +94,7 @@ const controller = {
 		return res.render ( "../views/users/login.ejs" ,{
 			errors: {
 				email: {
-					msg:'Las credenciales son ivalidas'
+					msg:'Las credenciales son invalidas'
 				}
 			}
 		});
