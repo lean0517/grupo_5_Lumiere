@@ -29,7 +29,8 @@ body {
 body {
   font-family: var(--base-font-family);
   font-weight: 300;
-  background-color: var(--light-gray);
+  background-image:url("../img/fondo-lumiere.jpg") ;
+  /* background-color: var(--light-gray); */
 }
 
 ul,
@@ -248,9 +249,8 @@ footer{
   margin-bottom: 15px;
   font-size: 1.5em;
   border-radius: 8px;
-  border: none;
-  border: solid 1px var(--gray);
-  padding: 0 15px;
+  border: solid 1px #1259c3;
+  padding: 0 15px ;
 }
 
 textarea.form-input {
@@ -258,7 +258,14 @@ textarea.form-input {
   resize: vertical;
   padding: 15px;
 }
-
+.container-products-wrapper{
+  width:50%;
+  border: solid 5px #1259c3;
+  padding: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: var(--light-gray);
+}
 
 
 /*====== Media-Queries ======*/

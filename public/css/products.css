@@ -102,7 +102,7 @@ section.producto{
   border: solid rgba(35, 98, 182, 0.966) 4px;
   border-radius: 15px;
   display: flex;
-  width: 50%;
+  width: 40%;
   justify-content: space-around;
   background-color: white;
 }

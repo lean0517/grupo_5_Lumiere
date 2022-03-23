@@ -135,11 +135,13 @@ header {
     flex-direction: row;
     flex-wrap: nowrap;
     margin: 5%;
+    
 }
 
 .ofertas article {
     border: solid rgba(35, 98, 182, 0.966) 4px;
     border-radius: 15px;
+    background-color: var(--light-gray);
 }
 
 article {
